@@ -26,6 +26,7 @@ header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
     max-width: /* xxxpx (px = pixel is a unit of measure)  */;
+    color: red;
 }
 
 header, footer, footer a {
