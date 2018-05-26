@@ -1,0 +1,27 @@
+var gpBirmingham = [
+{
+"deck": "Dragon Stompy",
+"type": "control",
+"place": "first"
+},
+{
+"deck": "Grixis Delver",
+"type": "aggro-control",
+"place": "second"
+},
+{
+"deck": "Grixis Delver",
+"type": "aggro-control",
+"place": "third"
+},
+{
+"deck": "Steel Stompy",
+"type": "aggro-control",
+"place": "fourth"
+},
+{
+"deck": "Dredge",
+"type": "combo",
+"place": "fifth"
+}
+]
