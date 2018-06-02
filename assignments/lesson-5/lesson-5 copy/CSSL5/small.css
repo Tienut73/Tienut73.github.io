@@ -31,5 +31,10 @@ main figure { margin: 0 0 .2rem 2%; width:96%; }
 main figure img { }
 
 /* 10-day forecast details should be set to "display:none;" in the small CSS view. */
+.forecast {
+
+     display: none;
+
+}
 
 footer {}
