@@ -1,0 +1,12 @@
+var gpBirmingham = [
+{
+"deck": "Steel Stompy",
+"type": "aggro-control",
+"place": "fourth"
+},
+{
+"deck": "Dredge",
+"type": "combo",
+"place": "fifth"
+}
+]

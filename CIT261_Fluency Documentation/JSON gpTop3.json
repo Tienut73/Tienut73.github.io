@@ -1,0 +1,12 @@
+var gpBirmingham = [
+{
+"deck": "Dragon Stompy",
+"type": "control",
+"place": "first"
+},
+{
+"deck": "Grixis Delver",
+"type": "aggro-control",
+"place": "second/third"
+}
+]
