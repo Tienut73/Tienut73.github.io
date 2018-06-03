@@ -42,10 +42,11 @@ li a:hover {
   <h2>We're here, rain or shine!</h2>
   </header>
 
-  <nav>
-    <ul>
+  <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primeNav" class="hide">
     	<li><a href="#home">Home</a></li>
-    	<li><a href="#franklin">Franklin</a></li>
+    	<li class="active"><a href="#franklin">Franklin</a></li>
     	<li><a href="#greenville">Greenville</a></li>
     	<li><a href="#springfield">Springfield</a></li>
     	<li><a href="#stormcenter">Storm Center</a></li>
@@ -54,8 +55,13 @@ li a:hover {
   </nav>
     
   <main>
-  <figure>
-  	<img src="cloudy.jpg" alt="cloud picture" height="600" width="1000">
+  <figure class="myphoto">
+  	<img src="imagesL6/franklin-original.jpeg" alt="cloud picture" sizes="50vw"
+         srcset="imagesL6/FranklinLrg.jpg 200w,
+                 imagesL6/FranklinMed.jpg 500w,
+                 imagesL6/FranklinLrg.jpg 800w,
+                 imagesL6/franklin-original.jpeg 1100w"
+         >
   </figure>
   
     <h1>Page Title</h1>
@@ -68,12 +74,26 @@ li a:hover {
       </ul>
       
       <h2>Weather Icon</h2>
-      <img src="cloudy.jpg" alt="cloud picture" height="600" width="1000">
+      <figure class="myphoto">
+      <img src="imagesL6/franklin-original.jpeg" alt="cloud picture" sizes="50vw"
+         srcset="imagesL6/FranklinLrg.jpg 200w,
+                 imagesL6/FranklinMed.jpg 500w,
+                 imagesL6/FranklinLrg.jpg 800w,
+                 imagesL6/franklin-original.jpeg 1100w"
+         >
+      </figure>
       
       <h2>Forecast Details</h2>
       
       <h2>This day in History</h2>
-        <img src="cloudy.jpg" alt="cloud picture" height="600" width="1000">
+      <figure class="myphoto">
+        <img src="imagesL6/franklin-original.jpeg" alt="cloud picture" sizes="50vw"
+         srcset="imagesL6/FranklinLrg.jpg 200w,
+                 imagesL6/FranklinMed.jpg 500w,
+                 imagesL6/FranklinLrg.jpg 800w,
+                 imagesL6/franklin-original.jpeg 1100w"
+         >
+      </figure>
       
       <p>On this day in history...</p>
       
@@ -131,6 +151,29 @@ li a:hover {
       <p></p>
       <p></p>
       </section>
+      
+      <section>
+      <h3>Date</h3>
+        <p>
+          <script>
+var today = new Date();
+var dd = today.getDate();
+var mm = today.getMonth() + 1; //January is 0!
+var yyyy = today.getFullYear();
+
+if (dd < 10) {
+    dd = '0' + dd;
+}
+
+if (mm < 10) {
+    mm = '0' + mm;
+}
+
+today = mm + '/' + dd + '/' + yyyy;
+document.write(today);
+</script>
+        </p>
+          </section>
       
   </footer>
 

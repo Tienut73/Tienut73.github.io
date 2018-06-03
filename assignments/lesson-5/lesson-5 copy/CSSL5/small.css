@@ -25,10 +25,16 @@ nav ul li a {}
 nav ul li.active a {}
 nav ul li a:hover {}
 
-main {}
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+}
 main h2 {}
 main figure { margin: 0 0 .2rem 2%; width:96%; }
-main figure img { }
+main figure.myphoto {
+    width: 50%;
+    border: 1px red dashed;
+}
 
 /* 10-day forecast details should be set to "display:none;" in the small CSS view. */
 .forecast {
