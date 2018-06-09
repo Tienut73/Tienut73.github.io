@@ -1,0 +1,79 @@
+/* Delete these CSS comments after reading. */
+/* This main css file contains the default rules and is geared toward the small/phone view */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 16px;
+  ____________  /* Declare the base font-family */
+}
+
+header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+  max-width: ______; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+}
+
+header {}
+header h1 {}
+header img {}
+header .subheading {}
+
+nav {
+    background-color: #ccc;
+    font-family: Verdana, sans-serif;
+}
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {}
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #000;
+    border-top:1px solid rgba(0,0,0,0.3);
+}
+nav ul li.active a {background-color: rgba(0,0,0,0.2); color: #fff;
+    
+}
+nav ul li a:hover {background-color: rgba(0,0,0,0.4);
+    
+}
+
+nav ul.hide {display: none;}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+}
+main h2 {}
+main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure.myphoto {
+    width: 50%;
+    border: 1px red dashed;
+}
+main figure.myphoto img {width 100%;}
+main figure.myphoto img { text-align: center; font-size: .75rem;}
+
+/* 10-day forecast details should be set to "display:none;" in the small CSS view. */
+.forecast {
+
+     display: none;
+
+}
+
+footer {}

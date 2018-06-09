@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<meta name="description" content="Weather Wizard gives forecasts for Franklin, Greenville and Springfield.">
+<link rel="stylesheet" type="text/css" href="CSSL6/small.css">
+<link rel="stylesheet" type="text/css" href="CSSL6/normalize.css">
+<style>
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+    
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primeNav" class="hide">
+    	<li><a href="#home"
+                onclick="window.open('index.html')">Home</a></li>
+    	<li class="active"><a href="#franklin">Franklin</a></li>
+    	<li><a href="#greenville">Greenville</a></li>
+    	<li><a href="#springfield">Springfield</a></li>
+    	<li><a href="#stormcenter">Storm Center</a></li>
+    	<li><a href="#gallery"
+               onclick="window.open('gallery.html')">Gallery</a></li>
+    </ul>		
+  </nav>
+
+<div class="gallery">
+  <figure class="myphoto">
+      <img src="imagesL7/arid-mesa-LRG.jpeg" alt="Arid Mesa" sizes="50vw"
+         srcset="imagesL7/arid-mesa-SML.jpeg 200w,
+                 imagesL7/arid-mesa-MED.jpeg 500w,
+                 imagesL7/arid-mesa-LRG.jpeg 800w"
+         >
+      </figure>
+  <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id ante urna. Aliquam tempus volutpat fringilla. Aliquam auctor a metus sit amet scelerisque. Duis aliquam ultrices enim, vitae volutpat neque feugiat vitae. </div>
+    </div>
+
+    <div class="gallery">
+  <figure class="myphoto">
+      <img src="imagesL7/forked-bolt-LRG.jpeg" alt="Forked Bolt" sizes="50vw"
+         srcset="imagesL7/forked-bolt-SML.jpeg 200w,
+                 imagesL7/forked-bolt-MED.jpeg 500w,
+                 imagesL7/forked-bolt-LRG.jpeg 800w"
+         >
+      </figure>
+  <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id ante urna. Aliquam tempus volutpat fringilla. Aliquam auctor a metus sit amet scelerisque. Duis aliquam ultrices enim, vitae volutpat neque feugiat vitae. </div>
+    </div>
+
+    <div class="gallery">
+  <figure class="myphoto">
+      <img src="imagesL7/coldsnap-LRG.jpg" alt="Coldsnap" sizes="50vw"
+         srcset="imagesL7/coldsnap-SML.jpeg 200w,
+                 imagesL7/coldnsap-MED.jpeg 500w,
+                 imagesL7/coldsnap-LRG.jpg 800w"
+         >
+      </figure>
+  <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id ante urna. Aliquam tempus volutpat fringilla. Aliquam auctor a metus sit amet scelerisque. Duis aliquam ultrices enim, vitae volutpat neque feugiat vitae. </div>
+    </div>
+
+    <div class="gallery">
+  <figure class="myphoto">
+      <img src="imagesL7/foggy-LRG.jpg" alt="Foggy" sizes="50vw"
+         srcset="imagesL7/foggy-SML.jpeg 200w,
+                 imagesL7/foggy-MED.jpeg 500w,
+                 imagesL7/foggy-LRG.jpg 800w"
+         >
+      </figure>
+  <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id ante urna. Aliquam tempus volutpat fringilla. Aliquam auctor a metus sit amet scelerisque. Duis aliquam ultrices enim, vitae volutpat neque feugiat vitae. </div>
+    </div>
+    
+    <div class="gallery">
+    <figure class="myphoto">
+      <img src="imagesL7/inferno-LRG.jpeg" alt="Inferno" sizes="50vw"
+         srcset="imagesL7/inferno-SML.jpeg 200w,
+                 imagesL7/inferno-MED.jpeg 500w,
+                 imagesL7/inferno-LRG.jpeg 800w"
+         >
+      </figure>
+    <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id ante urna. Aliquam tempus volutpat fringilla. Aliquam auctor a metus sit amet scelerisque. Duis aliquam ultrices enim, vitae volutpat neque feugiat vitae.</div>
+    </div>
+    
+    <div class="gallery">
+    <figure class="myphoto">
+      <img src="imagesL7/twister-LRG.jpeg" alt="Twister" sizes="50vw"
+         srcset="imagesL7/twister-SML.jpeg 200w,
+                 imagesL7/twister-MED.jpeg 500w,
+                 imagesL7/twister-LRG.jpeg 800w"
+         >
+      </figure>
+    <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id ante urna. Aliquam tempus volutpat fringilla. Aliquam auctor a metus sit amet scelerisque. Duis aliquam ultrices enim, vitae volutpat neque feugiat vitae.</div>
+    </div>
+
+</body>
+</html>

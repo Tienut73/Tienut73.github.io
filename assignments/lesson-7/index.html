@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+<link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<meta name="description" content="Weather Wizard gives forecasts for Franklin, Greenville and Springfield.">
+<link rel="stylesheet" type="text/css" href="CSSL6/small.css">
+<link rel="stylesheet" type="text/css" href="CSSL6/normalize.css">
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    color: white;
+}
+    
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+    
+li a:hover {
+    background-color: #111;
+}
+</style>
+</head>
+<body>
+
+  <header>
+  <img src="" alt="">
+  <h1>Weather Wizard | Franklin Forecasts and Family Fun!</h1>
+  <h2>We're here, rain or shine!</h2>
+  </header>
+
+  <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primeNav" class="hide">
+    	<li><a href="#home">Home</a></li>
+    	<li class="active"><a href="#franklin">Franklin</a></li>
+    	<li><a href="#greenville">Greenville</a></li>
+    	<li><a href="#springfield">Springfield</a></li>
+    	<li><a href="#stormcenter">Storm Center</a></li>
+    	<li><a href="#gallery"
+               onclick="window.open('gallery.html')">Gallery</a></li>
+    </ul>		
+  </nav>
+    
+  <main>
+  <figure class="myphoto">
+  	<img src="imagesL7/franklin-original.jpeg" alt="cloud picture" sizes="50vw"
+         srcset="imagesL7/FranklinLrg.jpg 200w,
+                 imagesL7/FranklinMed.jpg 500w,
+                 imagesL7/FranklinLrg.jpg 800w,
+                 imagesL7/franklin-original.jpeg 1100w"
+         >
+  </figure>
+  
+    <h1>Page Title</h1>
+      <h2>Today's Weather</h2>
+      <ul>
+        <li>High:</li>
+        <li>Low:</li>
+        <li>Chance of Precipitation:</li>
+        <li>Wind:</li>
+      </ul>
+      
+      <h2>Weather Icon</h2>
+      <figure class="myphoto">
+      <img src="imagesL7/franklin-original.jpeg" alt="cloud picture" sizes="50vw"
+         srcset="imagesL7/FranklinLrg.jpg 200w,
+                 imagesL7/FranklinMed.jpg 500w,
+                 imagesL7/FranklinLrg.jpg 800w,
+                 imagesL7/franklin-original.jpeg 1100w"
+         >
+      </figure>
+      
+      <h2>Forecast Details</h2>
+      
+      <h2>This day in History</h2>
+      <figure class="myphoto">
+        <img src="imagesL7/franklin-original.jpeg" alt="cloud picture" sizes="50vw"
+         srcset="imagesL7/FranklinLrg.jpg 200w,
+                 imagesL7/FranklinMed.jpg 500w,
+                 imagesL7/FranklinLrg.jpg 800w,
+                 imagesL7/franklin-original.jpeg 1100w"
+         >
+      </figure>
+      
+      <p>On this day in history...</p>
+      
+<section class="forecast">
+<h2>Forecast Details</h2>
+<h3>Ten Day Forecast</h3>
+<table>
+<thead>
+<tr>
+<th>Day 1</th>
+<th>Day 2</th>
+<th>Day 3</th>
+<th>Day 4</th>
+<th>Day 5</th>
+<th>Day 6</th>
+<th>Day 7</th>
+<th>Day 8</th>
+<th>Day 9</th>
+<th>Day 10</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>89&deg;F</td>
+<td>87&deg;F</td>
+<td>78&deg;F</td>
+<td>75&deg;F</td>
+<td>72&deg;F</td>
+<td>72&deg;F</td>
+<td>79&deg;F</td>
+<td>83&deg;F</td>
+<td>85&deg;F</td>
+<td>89&deg;F</td>
+</tr>
+</tbody>
+</table>
+</section>
+  </main>
+    
+  <footer>
+      <section>
+      <h3>Address</h3>
+      <p></p>
+      <p></p>
+      </section>
+      
+      <section>
+      <h3>Phone</h3>
+      <p></p>
+      <p></p>
+      </section>
+      
+      <section>
+      <h3>Email</h3>
+      <p></p>
+      <p></p>
+      </section>
+      
+      <section>
+      <h3>Date</h3>
+        <p>
+          <script>
+var today = new Date();
+var dd = today.getDate();
+var mm = today.getMonth() + 1; //January is 0!
+var yyyy = today.getFullYear();
+
+if (dd < 10) {
+    dd = '0' + dd;
+}
+
+if (mm < 10) {
+    mm = '0' + mm;
+}
+
+today = mm + '/' + dd + '/' + yyyy;
+document.write(today);
+</script>
+        </p>
+          </section>
+      
+  </footer>
+
+</body>
+</html>
