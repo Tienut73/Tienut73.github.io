@@ -6,17 +6,30 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
 <meta name="description" content="Weather Wizard gives forecasts for Franklin, Greenville and Springfield.">
 <link rel="stylesheet" type="text/css" href="CSSL6/small.css">
+<link rel="stylesheet" type="text/css" href="CSSL6/medium.css">
+<link rel="stylesheet" type="text/css" href="CSSL6/large.css">
 <link rel="stylesheet" type="text/css" href="CSSL6/normalize.css">
 <style>
+    .grid {
+        display: grid;
+        grid-column-gap: 5%;
+        grid-template-columns: 30% 30% 30%;
+    }
+    .grid div {
+        
+    }
 div.gallery {
-    margin: 5px;
+    margin: 20px; 
     border: 1px solid #ccc;
+    background: #eee;
     float: left;
-    width: 180px;
+    width: 100%;
 }
 
 div.gallery:hover {
     border: 1px solid #777;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
 }
 
 div.gallery img {
@@ -45,7 +58,7 @@ div.desc {
                onclick="window.open('gallery.html')">Gallery</a></li>
     </ul>		
   </nav>
-
+<div class= "grid">
 <div class="gallery">
   <figure class="myphoto">
       <img src="imagesL7/arid-mesa-LRG.jpeg" alt="Arid Mesa" sizes="50vw"
@@ -111,6 +124,6 @@ div.desc {
       </figure>
     <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id ante urna. Aliquam tempus volutpat fringilla. Aliquam auctor a metus sit amet scelerisque. Duis aliquam ultrices enim, vitae volutpat neque feugiat vitae.</div>
     </div>
-
+</div>
 </body>
 </html>

@@ -1,4 +1,4 @@
-window.onload = function() {
+function windChill() {
 
 var w = parseFloat(document.getElementById("wind").innerHTML);
 var h = parseFloat(document.getElementById("high").innerHTML);

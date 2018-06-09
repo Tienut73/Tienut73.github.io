@@ -6,6 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
 <meta name="description" content="Weather Wizard gives forecasts for Franklin, Greenville and Springfield.">
 <link rel="stylesheet" type="text/css" href="CSSL6/small.css">
+<link rel="stylesheet" type="text/css" href="CSSL6/medium.css">
+<link rel="stylesheet" type="text/css" href="CSSL6/large.css">
 <link rel="stylesheet" type="text/css" href="CSSL6/normalize.css">
 <style>
 ul {
@@ -32,9 +34,13 @@ li a {
 li a:hover {
     background-color: #111;
 }
+    
+    table, th, td { 
+    border: 1px solid black;
+    }
 </style>
 </head>
-<body>
+<body onload = "windChill()">
 
   <header>
   <img src="" alt="">
@@ -100,6 +106,31 @@ li a:hover {
       
 <section class="forecast">
 <h2>Forecast Details</h2>
+<table>
+<tbody>
+<tr>
+<th>Summary</th>
+<th>Sunny</th>
+</tr>
+<tr>
+<th>High</th>
+<th>90&deg;</th>
+</tr>
+<tr>
+<th>Low</th>
+<th>66&deg;</th>
+</tr>
+<tr>
+<th>Chance of Precipitation</th>
+<th>0&deg;</th>
+</tr>
+<tr>
+<th>Max Wind</th>
+<th>5mph SW</th>
+</tr>
+<th>Wind Chill</th>
+<th></th>
+</tbody></table>
 <h3>Ten Day Forecast</h3>
 <table>
 <thead>
@@ -137,20 +168,19 @@ li a:hover {
   <footer>
       <section>
       <h3>Address</h3>
-      <p></p>
-      <p></p>
+      <p>The Weather Center</p>
+      <p>123 Main Street</p>
+        <p>Franklin, MI 87654</p>
       </section>
       
       <section>
       <h3>Phone</h3>
-      <p></p>
-      <p></p>
+      <p>(801) 555-1234</p>
       </section>
       
       <section>
       <h3>Email</h3>
-      <p></p>
-      <p></p>
+      <p>contact@yoururl.com</p>
       </section>
       
       <section>
