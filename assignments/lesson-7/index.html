@@ -10,6 +10,17 @@
 <link rel="stylesheet" type="text/css" href="CSSL6/large.css">
 <link rel="stylesheet" type="text/css" href="CSSL6/normalize.css">
 <style>
+    .flex-container {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .flex-container > div {
+        background-color: #f1f1f1;
+        width: auto;
+        margin: auto;
+        text-align: center;
+        line-height: auto;
+    }
 ul {
     list-style-type: none;
     margin: 0;
@@ -62,6 +73,7 @@ li a:hover {
   </nav>
     
   <main>
+      <div class="flex-container">
   <figure class="myphoto">
   	<img src="imagesL7/franklin-original.jpeg" alt="cloud picture" sizes="50vw"
          srcset="imagesL7/FranklinLrg.jpg 200w,
@@ -70,6 +82,7 @@ li a:hover {
                  imagesL7/franklin-original.jpeg 1100w"
          >
   </figure>
+          </div>
   
     <h1>Page Title</h1>
       <h2>Today's Weather</h2>
@@ -81,6 +94,7 @@ li a:hover {
       </ul>
       
       <h2>Weather Icon</h2>
+       <div class="flex-container">
       <figure class="myphoto">
       <img src="imagesL7/franklin-original.jpeg" alt="cloud picture" sizes="50vw"
          srcset="imagesL7/FranklinLrg.jpg 200w,
@@ -89,10 +103,12 @@ li a:hover {
                  imagesL7/franklin-original.jpeg 1100w"
          >
       </figure>
+      </div>
       
       <h2>Forecast Details</h2>
       
       <h2>This day in History</h2>
+       <div class="flex-container">
       <figure class="myphoto">
         <img src="imagesL7/franklin-original.jpeg" alt="cloud picture" sizes="50vw"
          srcset="imagesL7/FranklinLrg.jpg 200w,
@@ -101,11 +117,13 @@ li a:hover {
                  imagesL7/franklin-original.jpeg 1100w"
          >
       </figure>
+      </div>
       
       <p>On this day in history...</p>
-      
+         <div class="flex-container">          
 <section class="forecast">
 <h2>Forecast Details</h2>
+ <div class="flex-container">
 <table>
 <tbody>
 <tr>
@@ -162,7 +180,9 @@ li a:hover {
 </tr>
 </tbody>
 </table>
+    </div>
 </section>
+      </div>
   </main>
     
   <footer>
