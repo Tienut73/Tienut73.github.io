@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Thank you page">
+<meta name="author" content="Logan Pierce">
+
+<title>Thank You Page</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" type="text/css" href="stormcenter/CSSL8/small.css">
+<link rel="stylesheet" type="text/css" href="stormcenter/CSSL8/medium.css">
+<link rel="stylesheet" type="text/css" href="stormcenter/CSSL8/large.css">
+<link rel="stylesheet" href="stormcenter/CSSL8/normalize.css">
+    <style></style>
+
+     
+</head>
+<body>
+	<header>
+ <h1>Storm Center</h1>
+        <h2>Severe Weather Submission Forms</h2>
+    </header>
+    
+        <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primeNav" class="hide">
+    	<li><a href="#home">Home</a></li>
+    	<li class="active"><a href="#franklin">Franklin</a></li>
+    	<li><a href="#greenville">Greenville</a></li>
+    	<li><a href="#springfield">Springfield</a></li>
+    	<li><a href="#stormcenter">Storm Center</a></li>
+    	<li><a href="#gallery"
+               onclick="window.open('gallery.html')">Gallery</a></li>
+    </ul>		
+  </nav>
+    
+    <main>
+    <h1>Thank You!</h1>
+        <h2>We appreciate you taking the time to share your observations with us. Be careful out there and stay safe!</h2>
+
+    </main>
+    
+    <footer>
+    <section>
+      <h3>Address</h3>
+      <p>The Weather Center</p>
+      <p>123 Main Street</p>
+        <p>Franklin, MI 87654</p>
+      </section>
+      
+      <section>
+      <h3>Phone</h3>
+      <p>(801) 555-1234</p>
+      </section>
+      
+      <section>
+      <h3>Email</h3>
+      <p>contact@yoururl.com</p>
+      </section>
+      
+      <section>
+      <h3>Date</h3>
+        <p>
+          <script>
+var today = new Date();
+var dd = today.getDate();
+var mm = today.getMonth() + 1; //January is 0!
+var yyyy = today.getFullYear();
+
+if (dd < 10) {
+    dd = '0' + dd;
+}
+
+if (mm < 10) {
+    mm = '0' + mm;
+}
+
+today = mm + '/' + dd + '/' + yyyy;
+document.write(today);
+</script>
+        </p>
+          </section>
+      
+  </footer>
+<script src="js/scripts.js"></script>
+</body>
+</html>
