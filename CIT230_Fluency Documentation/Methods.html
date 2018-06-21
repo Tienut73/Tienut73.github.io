@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <h2>Methods</h2>
+</head>
+<body>
+    <h4>"This" refers to the owner of the function. In the following example, "this" is the person who owns the fullName and dateOfBirth functions.</h4>
+    <p id="name"></p>
+    <p id="dob"></p>
+
+    <script>
+        var person = {
+                firstName: "Yankee",
+                lastName: "Doodle",
+                month: 7,
+                day: 4,
+                year: 1976,
+                fullName: function () {
+                    return this.firstName + " " + this.lastName;
+                },
+                dateOfBirth: function () {
+                    return this.month + "/" + this.day + "/" + this.year;
+                }
+            };
+        document.getElementById("name").innerHTML = "My name is: " + person.fullName();
+        document.getElementById("dob").innerHTML = "I was born on: " + person.dateOfBirth();
+
+    </script>
+</body>
+    </html>
