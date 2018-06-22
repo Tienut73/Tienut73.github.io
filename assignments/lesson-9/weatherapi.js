@@ -1,0 +1,1 @@
+var weatherRequest = new XMLHttpRequest();
