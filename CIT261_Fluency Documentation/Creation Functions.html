@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+</head>
+<meta charset="utf-8">
+<body>
+<script>
+function deckInfo()
+   {
+   var deck = {
+       name: "Dragon Stompy",
+       type: "control",
+   };
+      
+      if ((deck.name == "Dragon Stompy" && deck.type == "control"))
+      {
+         deck.place = "first";
+         var deckInfo = deck.name + " is a " 
+                     + deck.type + " deck. "
+                     + "It won " + deck.place + " place!";
+         return deckInfo;
+      } else {return "That's not the winning deck."};
+   }
+//-->
+</script>
+<h2>GP Birmingham <br></h2>
+<h3>Legacy Decks</h3>
+<button type="button" onclick="document.getElementById('deckInfo').innerHTML = deckInfo()")">
+Click to see the winning deck!</button>
+<p id="deckInfo"></p>
+<br />
+<h1>Top Deck Lists</h1>
+<h2 id="deck1a"></h2>
+   <ul>
+       <li id="deck1b"></li>
+       <li id="deck1c"></li>
+   </ul>
+<h2 id="deck2a"></h2>
+   <ul>
+       <li id="deck2b"></li>
+       <li id="deck2c"></li>
+   </ul>
+<h2 id="deck3a"></h2>
+   <ul>
+       <li id="deck3b"></li>
+       <li id="deck3c"></li>
+   </ul>
+<h2 id="deck4a"></h2>
+   <ul>
+       <li id="deck4b"></li>
+       <li id="deck4c"></li>
+   </ul>
+<script>
+                      
+    var deck1 = {
+       name: "Grixis Delver",
+       type: "Control",
+       place: "Second",               
+   };
+   
+   var deck2 = {
+       name: "Grixis Delver",
+       type: "Control",            
+       place: "Third",
+   };
+   
+   var deck3 = {
+       name: "Steel Stompy",
+       type: "Aggro-Control",
+       place: "Fourth",
+   };
+   
+   var deck4 = {
+       name: "Dredge",
+       type: "Combo",
+       place: "Fifth",
+   };
+   
+   
+   document.getElementById("deck1a").innerHTML = deck1.name.toUpperCase();
+   document.getElementById("deck1b").innerHTML = "Type: " + deck1.type;
+   document.getElementById("deck1c").innerHTML = "Place: " + deck1.place;
+                                                          
+    document.getElementById("deck2a").innerHTML = deck2.name.toUpperCase();
+   document.getElementById("deck2b").innerHTML = "Type: " + deck2.type;
+   document.getElementById("deck2c").innerHTML = "Place: " + deck2.place;
+                                                          
+    document.getElementById("deck3a").innerHTML = deck3.name.toUpperCase();
+   document.getElementById("deck3b").innerHTML = "Type: " + deck3.type;
+   document.getElementById("deck3c").innerHTML = "Place: " + deck3.place;
+    
+    document.getElementById("deck4a").innerHTML = deck4.name.toUpperCase();
+   document.getElementById("deck4b").innerHTML = "Type: " + deck4.type;
+   document.getElementById("deck4c").innerHTML = "Place: " + deck4.place;
+   
+</script>
+</body>
+</html>

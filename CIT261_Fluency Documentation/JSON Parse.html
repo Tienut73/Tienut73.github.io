@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+    <p id="fullName"></p>
+    <p id="dateOfBirth"></p>
+    <p id="myHeight"></p>
+    <script>
+        var text = '{"fname":"Logan", "lname":"Pierce", "age":32, "dob":"1986-2-4", "height":"function() {return 5.7;}", "city":"San Antonio"}'
+        var userInfo = JSON.parse(text);
+        document.getElementById("fullName").innerHTML = "Information for: " + userInfo.fname + " " + userInfo.lname;
+        userInfo.height = eval("(" + userInfo.height + ")");
+        document.getElementById("myHeight").innerHTML = "Height function: " + userInfo.height();
+        userInfo.dob = new Date(userInfo.dob);
+        document.getElementById("dateOfBirth").innerHTML = ("Date of birth is: " + userInfo.dob);
+    </script>
+
+</body >
+</html >

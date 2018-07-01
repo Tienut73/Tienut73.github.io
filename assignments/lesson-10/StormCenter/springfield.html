@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en-us">
+<head> 
+<link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+<meta charset="utf-8">
+<title>Weather Center</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<meta name="description" content="Weather Wizard gives forecasts for Franklin, Greenville and Springfield.">
+<link rel="stylesheet" type="text/css" href="stormcenter/CSSL10/small.css">
+<link rel="stylesheet" type="text/css" href="stormcenter/CSSL10/medium.css">
+<link rel="stylesheet" type="text/css" href="stormcenter/CSSL10/large.css">
+<link rel="stylesheet" type="text/css" href="stormcenter/CSSL10/normalize.css">
+<style>
+    .flex-container {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .flex-container > div {
+        background-color: #f1f1f1;
+        width: auto;
+        margin: auto;
+        text-align: center;
+        line-height: auto;
+    }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    color: white;
+}
+    
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+    
+li a:hover {
+    background-color: #111;
+}
+    
+    table, th, td { 
+    border: 1px solid black;
+    }
+</style>
+    </head>
+
+  <body>
+    <div id="wrapper">
+      <header class="clearfix"><a href="index.html">
+      <figure class="logo">
+  <img src="ImagesL10/stormCloud.png" alt="Weather Logo">
+      </figure></a>
+  <h1>Weather Wizard | Franklin Forecasts and Family Fun!</h1>
+  <h2>We're here, rain or shine!</h2>
+  </header>
+       <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776;</button>
+    <ul class="hide" id="primeNav">
+        <li class="active"><a href="#home" onclick="window.open('index.html')">>Home</a></li>
+    	<li><a href="#franklin" onclick="window.open('franklin.html')">Franklin</a></li>
+    	<li><a href="#greenville" onclick="window.open('greenville.html')">Greenville</a></li>
+    	<li><a href="#springfield" onclick="window.open('springfield.html')">Springfield</a></li>
+    	<li><a href="#stormcenter" onclick="window.open('stormcenter.html')">Storm Center</a></li>
+    	<li><a href="#gallery" onclick="window.open('gallery.html')">Gallery</a></li>
+            </ul>		
+  </nav>
+      <main id="page-main">
+        <img src="ImagesL10/springfieldLRG.jpeg" alt="Springfield" sizes="100vw"
+             srcset="ImagesL10/springfieldSML.jpeg 1000w, ImagesL10/springfieldMED.jpeg 1500w, ImagesL10/springfieldLRG.jpeg 2000w">
+      
+        <section class="forecast">
+<h2>Forecast Details</h2>
+ <div class="flex-container">
+<table>
+<tbody>
+<tr>
+<th>Summary</th>
+<th>Sunny</th>
+</tr>
+<tr>
+<th>High</th>
+<th>90&deg;</th>
+</tr>
+<tr>
+<th>Low</th>
+<th>66&deg;</th>
+</tr>
+<tr>
+<th>Chance of Precipitation</th>
+<th>0&deg;</th>
+</tr>
+<tr>
+<th>Max Wind</th>
+<th>5mph SW</th>
+</tr>
+<th>Wind Chill</th>
+<th></th>
+</tbody></table>
+<h3>Ten Day Forecast</h3>
+<table>
+<thead>
+<tr>
+<th>Day 1</th>
+<th>Day 2</th>
+<th>Day 3</th>
+<th>Day 4</th>
+<th>Day 5</th>
+<th>Day 6</th>
+<th>Day 7</th>
+<th>Day 8</th>
+<th>Day 9</th>
+<th>Day 10</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>89&deg;F</td>
+<td>87&deg;F</td>
+<td>78&deg;F</td>
+<td>75&deg;F</td>
+<td>72&deg;F</td>
+<td>72&deg;F</td>
+<td>79&deg;F</td>
+<td>83&deg;F</td>
+<td>85&deg;F</td>
+<td>89&deg;F</td>
+</tr>
+</tbody>
+</table>
+    </div>
+</section>
+        </main>
+      <footer>
+      <section>
+      <h3>Address</h3>
+      <p>The Weather Center</p>
+      <p>123 Main Street</p>
+        <p>Franklin, MI 87654</p>
+      </section>
+      
+      <section>
+      <h3>Phone</h3>
+      <p>(801) 555-1234</p>
+      </section>
+      
+      <section>
+      <h3>Email</h3>
+      <p>contact@yoururl.com</p>
+      </section>
+      
+      <section>
+      <h3>Date</h3>
+        <p>
+          <script>
+var today = new Date();
+var dd = today.getDate();
+var mm = today.getMonth() + 1; //January is 0!
+var yyyy = today.getFullYear();
+
+if (dd < 10) {
+    dd = '0' + dd;
+}
+
+if (mm < 10) {
+    mm = '0' + mm;
+}
+
+today = mm + '/' + dd + '/' + yyyy;
+document.write(today);
+</script>
+        </p>
+          </section>
+      <section>
+      <p>Data courtesy <a href="https://openweathermap.org/">openweathermap.org</a></p>
+      </section>
+      
+  </footer>
+    </div>
+  </body>
+
+</html>

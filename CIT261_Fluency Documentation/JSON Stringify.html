@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+    <h2>Stringify</h2>
+    <p>You can't use functions with Stringify, but you can convert functions into a string.</p>
+    <p id="user"></p>
+    <script>
+        var myInfo = { "fname": "Logan", "lname": "Pierce", "dob": "1986-2-4", "city": "San Antonio", "state": "Texas", "infoDate":new Date(), "children":"function() {return 1;}"};
+        myInfo.children = myInfo.children.toString();
+        var myJSON = JSON.stringify(myInfo);
+        document.getElementById("user").innerHTML = myJSON;
+    </script>
+</head>
+<body>
+
+</body>
+</html>

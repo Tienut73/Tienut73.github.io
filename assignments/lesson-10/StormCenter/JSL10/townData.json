@@ -1,0 +1,183 @@
+var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+
+var cityObject = new XMLHttpRequest();
+
+cityObject.open('GET', requestURL, true);
+
+cityObject.responseType = 'json';
+cityObject.send();
+        
+cityObject.onload = function() {
+    var townInfo = cityObject.response;
+    console.log(townInfo);
+    
+    document.getElementById('franklin-name').innerHTML = townInfo.towns[0].name;
+    document.getElementById('franklin-motto').innerHTML = townInfo.towns[0].motto;
+    document.getElementById('franklin-year').innerHTML = townInfo.towns[0].yearFounded;
+    document.getElementById('franklin-population').innerHTML = townInfo.towns[0].currentPopulation;
+    document.getElementById('franklin-Rainfall').innerHTML = townInfo.towns[0].averageRainfall;
+    
+    
+    document.getElementById('greenville-name').innerHTML = townInfo.towns[1].name;
+    document.getElementById('greenville-motto').innerHTML = townInfo.towns[1].motto;
+    document.getElementById('greenville-year').innerHTML = townInfo.towns[1].yearFounded;
+    document.getElementById('greenville-population').innerHTML = townInfo.towns[1].currentPopulation;
+    document.getElementById('greenville-rainfall').innerHTML = townInfo.towns[1].averageRainfall;
+    
+    
+    document.getElementById('springfield-name').innerHTML = townInfo.towns[3].name;
+    document.getElementById('springfield-motto').innerHTML = townInfo.towns[3].motto;
+    document.getElementById('springfield-year').innerHTML = townInfo.towns[3].yearFounded;
+    document.getElementById('springfield-population').innerHTML = townInfo.towns[3].currentPopulation;
+    document.getElementById('springfield-rainfall').innerHTML = townInfo.towns[3].averageRainfall;
+    
+}
+
+
+{
+  "towns" : [
+  {
+    "name": "Franklin",
+    "motto": "Where you will grow!",
+    "yearFounded": 1788,
+    "currentPopulation": 30458,
+    "averageRainfall": 21,
+        "High": 90,
+		"Low": 66,
+		"Precip": 0,
+		"Wind": "1 - 5",
+		"Direction": "Southwest",
+		"Summary": "Sunny",
+		"Longitude": -111.803757,
+		"Latitude": 42.011902,
+		"zip": 83237,
+		"Hourly": {
+			"0": 67,
+			"1": 67,
+			"2": 69,
+			"3": 69,
+			"4": 69,
+			"5": 70,
+			"6": 69,
+			"7": 72,
+			"8": 74,
+			"9": 77,
+			"10": 79,
+			"11": 81,
+			"12": 84,
+			"13": 86,
+			"14": 88,
+			"15": 90,
+			"16": 90,
+			"17": 85,
+			"18": 83,
+			"19": 79,
+			"20": 74,
+			"21": 70,
+			"22": 68,
+			"23": 66
+		}
+    "events" : [
+      "March 4: March to the Drum of Donuts",
+      "September 5 - 11: Founder Days",
+      "December 1 - 26: Christmas in the Heart"
+    ]
+  },
+  {
+    "name": "Greenville",
+    "motto": "Green is our way of life.",
+    "yearFounded": 1805,
+    "currentPopulation": 33458,
+    "averageRainfall": 25,
+      "High": 84,
+		"Low": 55,
+		"Precip": 70,
+		"Wind": "15 - 20",
+		"Direction": "West",
+		"Summary": "Afternoon Thunderstorms",
+		"Longitude": -82.362997,
+		"Latitude": 34.836902,
+		"zip": 29601,
+		"Hourly": {
+			"0": 55,
+			"1": 56,
+			"2": 56,
+			"3": 56,
+			"4": 57,
+			"5": 57,
+			"6": 58,
+			"7": 62,
+			"8": 63,
+			"9": 67,
+			"10": 70,
+			"11": 73,
+			"12": 77,
+			"13": 80,
+			"14": 84,
+			"15": 83,
+			"16": 83,
+			"17": 80,
+			"18": 79,
+			"19": 74,
+			"20": 70,
+			"21": 68,
+			"22": 60,
+			"23": 58
+		}
+    "events" : [
+      "February 10-12: Greenbration",
+      "May 8 - 18: Greenville Founder Days",
+      "June 20: Verde and Valiant Day",
+      "November 15-16: Greensome Gathering"
+    ]
+  },
+
+  {
+    "name": "Springfield",
+    "motto": "Where everyone is lifted.",
+    "yearFounded": 1826,
+    "currentPopulation": 17852,
+    "averageRainfall": 17,
+      "High": 77,
+		"Low": 48,
+		"Precip": 0,
+		"Wind": "5 - 15",
+		"Direction": "Northwest",
+		"Summary": "Partly Cloudy",
+		"Longitude": -89.670832,
+		"Latitude": 39.763908,
+		"zip": 62701,
+		"Hourly": {
+			"0": 48,
+			"1": 48,
+			"2": 49,
+			"3": 49,
+			"4": 50,
+			"5": 49,
+			"6": 48,
+			"7": 49,
+			"8": 52,
+			"9": 54,
+			"10": 57,
+			"11": 59,
+			"12": 62,
+			"13": 65,
+			"14": 67,
+			"15": 70,
+			"16": 75,
+			"17": 77,
+			"18": 76,
+			"19": 74,
+			"20": 69,
+			"21": 62,
+			"22": 58,
+			"23": 49
+		}
+    "events" : [
+      "January 8: Spring into Winter",
+      "April 10-20: Celebration of Life",
+      "July 31-Aug 15: Dog Days of Summer Festival"
+    ]
+  }
+ ]
+}

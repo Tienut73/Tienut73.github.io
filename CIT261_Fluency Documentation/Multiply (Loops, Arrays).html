@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>Multiply List</title>
+
+<script>
+function runProgram(){
+var list = [ 1, 2, 3, 4, 5 , 6];
+var multiplier = 4;
+var products = multiply(list, multiplier);
+document.getElementById("outputDiv").innerHTML = products;
+}
+function multiply(list,multiplier){
+for (var i = 0;  i < list.length;  i++) {
+        
+var arrayList = list[i];
+var answer = arrayList * multiplier;
+list[i] = answer;
+    }
+    return list;
+}
+
+</script>
+</head>
+
+<body>
+Multiply items in the list by 4. <br>
+List: 1,2,3,4,5,6
+<button type="button" onclick="runProgram()">Multiply</button>
+<div id="outputDiv"></div>
+</body>
+</html>
