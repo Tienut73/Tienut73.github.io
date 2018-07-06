@@ -5,8 +5,8 @@ var output = windChill (tempF, speed);
 document.getElementById('outputDiv').innerHTML = output;
 }   
 
-function windChill(tempF, speed) {
-
+function windChill(tempF, speed) {    
+    
 var totalF = 35.74 + (0.6215*tempF) - 35.75* Math.pow(speed, 0.16) + 0.4275*tempF*Math.pow(speed, 0.16);
 
 // Round the distance to two digits after the decimal.

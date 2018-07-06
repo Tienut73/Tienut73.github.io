@@ -9,16 +9,28 @@ body {
 }
 
 header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
-  max-width: 100%; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+  max-width: 1280px; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+    margin: 1.25rem auto;
+    padding: .75rem;
+    background-color: azure;
 }
 
-header {}
-header h1 {}
+header {
+    padding: .5rem 2%;
+    background-color: azure;
+    display: flex;
+    justify-content: space-between;
+}
+header h1 {
+    margin: 3%;
+}
 header img {}
-header .subheading {}
+header .subheading {
+    font-weight: normal;
+}
 
 nav {
-    background-color: #ccc;
+    background-color: azure;
     font-family: Verdana, sans-serif;
 }
 nav button {
@@ -32,13 +44,17 @@ nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    
+    overflow: hidden;
 }
-nav ul li {}
+nav ul li {
+    border-right:1px solid #bbb;
+}
 nav ul li a {
     display: block;
     padding: .8rem 2%;
     text-decoration: none;
-    color: #000;
+    color: red;
     border-top:1px solid rgba(0,0,0,0.3);
 }
 nav ul li.active a {background-color: rgba(0,0,0,0.2); color: #fff;
