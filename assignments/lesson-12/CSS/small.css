@@ -1,23 +1,21 @@
-/* Delete these CSS comments after reading. */
-/* This main css file contains the default rules and is geared toward the small/phone view */
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
-* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+* { box-sizing: border-box;} 
 
 body {
   font-size: 16px;
-  font-family: Verdana, sans-serif;  /* Declare the base font-family */
+  font-family: Georgia, sans-serif;
 }
 
-header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
-  max-width: 1280px; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+header, nav, main, footer { 
+  max-width: 1280px; 
     margin: 1.25rem auto;
     padding: .75rem;
-    background-color: azure;
+    background-color: white;
 }
 
 header {
     padding: .5rem 2%;
-    background-color: azure;
+    background-color: white;
     display: flex;
     justify-content: space-between;
 }
@@ -30,8 +28,8 @@ header .subheading {
 }
 
 nav {
-    background-color: azure;
-    font-family: Verdana, sans-serif;
+    background-color: white;
+    font-family: 'Georgia', sans-serif;
 }
 nav button {
     margin: .2rem 2%;
@@ -85,7 +83,6 @@ main figure.myphoto {
 main figure.myphoto img {width 100%;}
 main figure.myphoto img { text-align: center; font-size: .75rem;}
 
-/* 10-day forecast details should be set to "display:none;" in the small CSS view. */
 .forecast {
 
      display: none;
@@ -95,13 +92,13 @@ main figure.myphoto img { text-align: center; font-size: .75rem;}
 
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid #445ba9;
+    border: 1px solid #236600;
     border-radius: 10px;
     padding: .5rem 2%;
     
 }
 form legend {
-    color: #445ba9;
+    color: #236600;
     margin: 0 1rem;
     padding: 0 .5rem;
 }
@@ -116,20 +113,20 @@ form label.top input, form label.top select {
    -webkit-appearance:none;
     display: block;
     font-size: 1rem;
-    border: solid 1px #999;
+    border: solid 1px #F09900;
     border-radius: 4px;
-    color: #555;
+    color: #FFF000;
     width: 100%;
     max-width: 20rem;
     background-color: rgba(0,0,0,0.1);
 }
 form label.sbs {
     display: blockactivepadding: .75rem 0;
-    color: #555;
+    color: #FFF000;
 }
 form input.submitBtn {
     border: none;
-    background-color: #9c2c13;
+    background-color: #FFF000;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -144,8 +141,6 @@ border-left:red solid 6px;
 form label.top input:required:valid {
     border-left: green solid 6px
 }
-
-
 
 .footer {
     position: fixed;

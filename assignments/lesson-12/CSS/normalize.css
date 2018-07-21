@@ -1,5 +1,3 @@
-/* Temporary Styling for Training
--------------------------------------- */
 #first-time, #user-login, .profile {
 	overflow: hidden;
 }
@@ -9,14 +7,8 @@
 	margin: 0;
 }
 
-
-/* League of American Bicyclists CSS Style Template
-   Author: Kristin Snelling
-   Radical Designs
-*/
-
 @font-face {
-	font-family: 'FleischmanBTPro-Regular';
+	font-family: 'Georgia-Regular';
 	font-weight: normal;
 	font-style: normal;
 	src: url('fonts/258511_0_0.eot');
@@ -26,7 +18,7 @@
 }
   
 @font-face {
-	font-family: 'ProximaNovaSExCn-Light';
+	font-family: 'Georgia-Light';
 	font-weight: normal;
 	font-style: normal;
 	src: url('fonts/258511_1_0.eot');
@@ -36,7 +28,7 @@
 }
  
 @font-face {
-	font-family: 'ProximaNovaS-Semibold';
+	font-family: 'Georgia-Semibold';
 	font-weight: normal;
 	font-style: normal;
 	src: url('fonts/258511_2_0.eot');
@@ -46,7 +38,7 @@
 } 
   
 @font-face {
-	font-family: 'ProximaNovaSExCn-Semibold';
+	font-family: 'Georgia-Semibold';
 	font-weight: normal;
 	font-style: normal;
 	src: url('fonts/258511_3_0.eot');
@@ -56,7 +48,7 @@
 } 
   
 @font-face {
-	font-family: 'ProximaNovaSExCn-Regular';
+	font-family: 'Georgia-Regular';
 	font-weight: normal;
 	font-style: normal;
 	src: url('fonts/258511_4_0.eot');
@@ -67,7 +59,7 @@
  
   
 @font-face {
-	font-family: 'ProximaNovaAExCn-Semibold';
+	font-family: 'Georgia-Semibold';
 	font-weight: normal;
 	font-style: normal;
 	src: url('fonts/258511_5_0.eot');
@@ -77,7 +69,7 @@
 } 
   
 @font-face {
-	font-family: 'ProximaNovaA-Semibold';
+	font-family: 'Georgia-Semibold';
 	font-weight: normal;
 	font-style: normal;
 	src: url('fonts/258511_6_0.eot');
@@ -87,7 +79,7 @@
 } 
   
 @font-face {
-	font-family: 'ProximaNovaAExCn-Regular';
+	font-family: 'Georgia-Regular';
 	font-weight: normal;
 	font-style: normal;
 	src: url('fonts/258511_7_0.eot');
@@ -97,7 +89,7 @@
 } 
   
 @font-face {
-	font-family: 'ProximaNovaAExCn-Light';
+	font-family: 'Georgia-Light';
 	font-weight: normal;
 	font-style: normal;
 	src: url('fonts/258511_8_0.eot');
@@ -107,7 +99,7 @@
 } 
   
 @font-face {
-	font-family: 'ProximaNovaExCn-Light';
+	font-family: 'Georgia-Light';
 	font-weight: normal;
 	font-style: normal;
 	src: url('fonts/258511_9_0.eot');
@@ -117,7 +109,7 @@
 } 
   
 @font-face {
-	font-family: 'ProximaNovaExCn-Regular';
+	font-family: 'Georgia-Regular';
 	font-weight: normal;
 	font-style: normal;
 	src: url('fonts/258511_A_0.eot');
@@ -127,7 +119,7 @@
 } 
   
 @font-face {
-	font-family: 'ProximaNovaExCn-Semibold';
+	font-family: 'Georgia-Semibold';
 	font-weight: normal;
 	font-style: normal;
 	src: url('fonts/258511_B_0.eot');
@@ -137,7 +129,7 @@
 } 
   
 @font-face {
-	font-family: 'ProximaNova-Semibold';
+	font-family: 'Georgia-Semibold';
 	font-weight: normal;
 	font-style: normal;
 	src: url('fonts/258511_C_0.eot');
@@ -146,18 +138,16 @@
 	     url('fonts/258511_C_0.ttf') format('truetype');
 }
 @font-face {
-     font-family: 'StateFaceRegular';
+     font-family: 'Georgia';
      font-weight: normal;
      font-style: normal;
      src: url('fonts/stateface-regular-webfont.eot');
      src: url('fonts/stateface-regular-webfont.eot?#iefix') format('embedded-opentype'),
-          url('fonts/stateface-regular-webfont.woff') format('woff'),
-          url('fonts/stateface-regular-webfont.ttf') format('truetype'),
-          url('fonts/stateface-regular-webfont.svg#StateFaceRegular') format('svg');
+          url('fonts/georgia-regular-webfont.woff') format('woff'),
+          url('fonts/georgia-regular-webfont.ttf') format('truetype'),
+          url('fonts/georgia-regular-webfont.svg#georgia') format('svg');
  }
 
-/* Font Styles
--------------------------------------- */
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 	font-style: normal;
@@ -167,12 +157,12 @@ h1, h2, h3, h4, h5, h6 {
 
 
 h4 {
-	font-family: 'ProximaNovaExCn-Light', 'Arial Narrow', sans-serif; 
+	font-family: 'Georgia-Light', sans-serif; 
 }
 
 h1 {
 	color: #fff; 
-	font-family: 'ProximaNovaExCn-Regular', Arial, sans-serif; 
+	font-family: 'Georgia-Regular', sans-serif; 
         text-transform: uppercase;
 	font-size: 43px;
 	line-height: 40px; 
@@ -180,43 +170,43 @@ h1 {
 	}
 
 h2 {
-  font-family: 'ProximaNovaExCn-Regular', Arial, sans-serif;
+  font-family: 'Georgia-Regular', sans-serif;
   padding-top: 12px;
 	font-size: 30px;
 	text-transform:uppercase;
 }
 
 h3 {
-	font-family: 'FleischmanBTPro-Regular', Georgia, Times, serif;
+	font-family: 'Georgia-Regular', serif;
 	font-size: 24px;
 }
 
 h4 {
-	font-family:'ProximaNovaExCn-Regular', 'Arial Narrow', sans-serif;
+	font-family:'Georgia-Regular', sans-serif;
 	font-size: 22px;
 	text-transform: uppercase;
 }
 
 h5, th {
-	font-family:'ProximaNova-Semibold', 'Arial Narrow', sans-serif; 
+	font-family:'Georgia-Semibold', sans-serif; 
 	font-size: 13px;
         text-transform: uppercase; 
         letter-spacing: .1em
 }
 
 h6, address {
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: 'Georgia', serif;
 	font-size: 14px;
 	color: #236600;
 	font-style: italic;
 }
 
 h6, p {
-	font-family: Georgia, Times, serif; 
+	font-family: 'Georgia', serif; 
 }
 
 p {
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: 'Georgia', serif;
 	font-size: 16px;
 	line-height: 24px;	
 	margin-top: 0;
@@ -238,7 +228,7 @@ a>img{
     color: rgb(0, 0, 0);
     text-transform: uppercase;
     letter-spacing: 0em;
-    font-family:'ProximaNovaExCn-Regular', 'Arial Narrow', sans-serif;
+    font-family:'Georgia-Regular', sans-serif;
 }
 
 #block-block-3 p {
@@ -253,7 +243,7 @@ body.not-front .pane-content ul {
   list-style-type: none; 
   font-size: 20px; 
   line-height: 26px; 
-  font-family: 'ProximaNovaExCn-Light', Arial Narrow,sans-serif; 
+  font-family: 'Georgia-Light', sans-serif; 
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 12px 0px; 
   }
@@ -303,7 +293,7 @@ li.box-slide:before {
 }
 
 #page-wrapper ul, #page-wrapper ol, blockquote, blockquote p {
-	font-family: 'ProximaNovaAExCn-Light', 'Arial Narrow', sans-serif;
+	font-family: 'Georgia', sans-serif;
 }
 
 div.accordionAnswer blockquote p {
@@ -312,18 +302,18 @@ div.accordionAnswer blockquote p {
 
 #page-wrapper ul.menu,
 .om-link {
-	font-family: 'ProximaNovaExCn-Regular', 'Arial Narrow', sans-serif;	
+	font-family: 'Georgia', sans-serif;	
 }
 
 #page-wrapper ul.menu ul.menu {
-	font-family: 'ProximaNovaAExCn-Light', 'Arial Narrow', sans-serif;
+	font-family: 'Georgia', sans-serif;
 }
 
 blockquote {
 	font-size: 28px;
       line-height:34px;
 
-	border-left: 4px solid #D22630;
+	border-left: 4px solid #F09900;
 	display: block;
     float: right;
     width: 220px;
@@ -348,7 +338,7 @@ a:hover {
 
 #node-content div.node-date,
 #node-content .node-author {
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: 'Georgia', serif;
 	font-size: 11px;
 	line-height: 30px;	
 	margin-top: 0;
@@ -356,7 +346,7 @@ a:hover {
 }
 
 #node-content .field-name-field-category {
-	font-family: 'ProximaNovaAExCn-Semibold', Arial, serif;
+	font-family: 'Georgia', serif;
 	font-size: 14px;
 	line-height: 18px;
 	text-transform: uppercase;
@@ -367,7 +357,7 @@ a:hover {
 }
 
 #comments h2 {
-	font-family: 'ProximaNovaAExCn-Regular', Arial, serif;
+	font-family: 'Georgia', serif;
 	font-size: 22px;
 	line-height: 22px;
 	text-transform: uppercase;	
@@ -376,19 +366,19 @@ a:hover {
 }
 
 #comments h2.comment-form {
-	font-family: 'ProximaNovaAExCn-Semibold', Arial, serif;
+	font-family: 'Georgia', serif;
 	font-size: 13px;
 }
 
 #comments .submitted {
-	font-family: 'ProximaNova-Semibold', Arial, serif;
+	font-family: 'Georgia', serif;
 	font-size: 13px;
 	text-transform: uppercase;
 	padding-top: 10px;
 }
 
 #comments .content {
-	font-family: Georgia, Arial, serif;
+	font-family: 'Georgia', serif;
 	color: #236600;
 	font-size: 16px;
 	padding-top: 10px;
@@ -398,7 +388,7 @@ a:hover {
 	color: #236600;
 	text-transform: uppercase;
 	font-size: 13px;
-	font-family: 'ProximaNova-Semibold', Arial, serif;
+	font-family: 'Georgia', serif;
 }
 
 #comments h5 {
@@ -408,7 +398,7 @@ a:hover {
 
 ol{
 	counter-reset:li;
-	margin: 4px 0px  20px -44px;/* sets number outside margin */
+	margin: 4px 0px  20px -44px;
 	padding-left:0px;
 	font-weight: 100;
 }
@@ -425,17 +415,16 @@ ol li{
 	font-size: 19px;
 	line-height: 26px;
 	color:#000000;
-	position:relative; /* Create a positioning context */
-	margin:0 20px 4px 2em; /* Give each list item a left margin to make room for the numbers */
-	padding:6px 0px 0px 6px; /* Add some spacing around the content */
-	list-style:none; /* Disable the normal item numbering */
+	position:relative; 
+	margin:0 20px 4px 2em;
+	padding:6px 0px 0px 6px; 
+	list-style:none; 
 	border-bottom: 2px solid #eaebe1;
 
 }
 ol > li:before {
-    content:counter(li); /* Use the counter as content */
-    counter-increment:li; /* Increment the counter by 1 */
-    /* Position and style the number */
+    content:counter(li); 
+    counter-increment:li; 
     position:absolute;
     top:4px;
     left:-1.25em;
@@ -445,15 +434,11 @@ ol > li:before {
     width:2em;
 	color:#FFF000;
 	font-size: 40px;
-    /* Some space between the number and the content in browsers that support
-       generated content but not positioning it (Camino 2 is one example) */
     margin-right:8px;
     padding:4px;
 	text-align:center;
 }
 
-/* Begin Structure +++++++++++++++++++
--------------------------------------- */
 html, body {
 	height: 100%;
 	margin: 0;
@@ -472,8 +457,6 @@ html, body {
 	height: auto;
 }
 
-/* Logged-in sticky footer exceptions
--------------------------------------- */
 body.logged-in #evergreen-footer {
 	bottom: 0;
 }
@@ -499,9 +482,6 @@ body.logged-in #page-wrapper #main-content-wrapper {
 	text-align: center;
 }
 
-/* Administration Overlay Exceptions
--------------------------------------- */
-
 #overlay-content #evergreen-footer {
 	display: none;
 }
@@ -518,12 +498,9 @@ body.logged-in #page-wrapper #main-content-wrapper {
 	margin-left: 0;
 }
 
-/* Main Content
--------------------------------------- */
 #main-content-wrapper {
 	display: block;
 	padding-bottom: 30px;
-	/*overflow: auto;*/
 	position: relative;
 }
 
@@ -566,11 +543,9 @@ body.logged-in #page-wrapper #main-content-wrapper {
 	max-width: 1200px;
 }
 	
-/* Interior Sidebar
--------------------------------------- */
 #scroll-quicklinks {
 	cursor: pointer;
-	font-family: 'ProximaNovaSExCn-Light', 'Arial Narrow', sans-serif;
+	font-family: 'Georgia', sans-serif;
 	font-size: 18px;
 	padding-left: 5px;
 }
@@ -596,7 +571,7 @@ body.logged-in #page-wrapper #main-content-wrapper {
 	margin-left: auto;
     margin-right: auto;
     color: #FFF000;
-	font-family: 'ProximaNovaSExCn-Light', 'Arial Narrow', sans-serif;
+	font-family: 'Georgia', sans-serif;
 	text-transform: uppercase;
 }
 
@@ -631,20 +606,18 @@ body.logged-in #page-wrapper #main-content-wrapper {
 #left .region-sidebar-interior .connect-title,
 #mobile-search .connect-title {
 	text-transform: uppercase;
-	font-family: 'ProximaNovaSExCn-Light', 'Arial Narrow', sans-serif;
+	font-family: 'Georgia', sans-serif;
 	font-size: 18px;
 }
 
 #left .region-sidebar-interior #block-block-1 p,
 #mobile-search #block-block-1 p,
 #mobile-search #block-block-6 p {
-	font-family: 'ProximaNovaAExCn-Light', 'Arial Narrow', sans-serif;
+	font-family: 'Georgia', sans-serif;
 	font-size: 16px;
 	margin: 0 0 5px;
 }
 
-/* Interior Sidebar Main Menu
--------------------------------------- */
 #left #block-menu-menu-interior-menu {
     border-right: 1px solid #D1D3C3;
     border-left: 1px solid #D1D3C3;
@@ -736,8 +709,6 @@ body.logged-in #page-wrapper #main-content-wrapper {
 	padding-bottom:6px;
 }
 
-/* Node Styling
--------------------------------------- */
 #right .region-content .node-social {
 	padding-top: 6px;
 	margin: 0 15px;
@@ -754,7 +725,7 @@ body.logged-in #page-wrapper #main-content-wrapper {
 
 #right .region-content .node-social .social-button {
 	text-transform: uppercase;
-	font-family:'ProximaNovaSExCn-Semibold', 'Arial Narrow', sans-serif;
+	font-family:'Georgia-Regular', sans-serif;
 	color: #F09900	;
 	font-size: 14px;
 }
@@ -777,16 +748,13 @@ body.logged-in #page-wrapper #main-content-wrapper {
 	display: none;
 }
 
-/* Node Header Styling
--------------------------------------- */
-
 #right .region-content .node-heading {
 	overflow: none;
 	height: 270px;
 	margin: 0 15px;
 	max-width: 100%;
 	position: relative;
-	background: #D22630;
+	background: #FFF000;
 	min-width: 760px;
 	line-height: 50px;
 }
@@ -827,20 +795,20 @@ body.logged-in #page-wrapper #main-content-wrapper {
 #right .region-content #hdr1-red.node-heading,
 #right .region-content #hdr2-red.node-heading,
 #right .region-content #hdr3-red.node-heading {
-	background: #D22630;
+	background: #FFF000;
 }
 
 #right .region-content #hdr1-yel.node-heading,
 #right .region-content #hdr2-yel.node-heading,
 #right .region-content #hdr3-yel.node-heading,
 #right .region-content #video-heading.node-heading {
-	background: #FBB034;
+	background: #F09900;
 }
 
 #right .region-content #hdr1-blu.node-heading,
 #right .region-content #hdr2-blu.node-heading,
 #right .region-content #hdr3-blu.node-heading  {
-	background: #0092BC;
+	background: #236600;
 }
 
 #right .region-content #hdr2-red.node-heading .node-heading-image,
@@ -891,7 +859,7 @@ body.logged-in #page-wrapper #main-content-wrapper {
 .node-webform .field-name-field-image-caption {
 	position: absolute;
 	padding: 6px 35px; 
-	font-family: Georgia;
+	font-family: 'Georgia';
 	font-style: italic;
 	font-size: 12px;
 	color: #F09900;
@@ -902,17 +870,13 @@ body.logged-in #page-wrapper #main-content-wrapper {
 	margin-top: -37px;
 }
 
-/* Node Panels
--------------------------------------- */
 .node-panel .meta {
 	display: none;
 }
 
-/* Quick Links Footer
--------------------------------------- */
 #footer {
-	background: #EAEBE1;
-	border-top: dashed #D22630 1px;
+	background: #FFF000;
+	border-top: dashed #F09900 1px;
 	width: 100%;
 	position: relative;
 }
@@ -928,7 +892,6 @@ body.logged-in #page-wrapper #main-content-wrapper {
 	max-width: 950px;
 	margin-left: 250px;
 	text-align: left;
-	/*min-width: 830px;*/
 }
 
 #footer #footer-right #block-menu-menu-interior-footer-menu {
@@ -958,12 +921,12 @@ body.logged-in #page-wrapper #main-content-wrapper {
 }
 
 #footer-left #ql-banner {
-	background: #D22630;
+	background: #F09900;
 	width: 190px;
 	color: #FFFFFF;
 	margin-left: 0px;
 	text-transform: uppercase;
-	font-family: 'ProximaNovaSExCn-Light', 'Arial Narrow', sans-serif;
+	font-family: 'Georgia', sans-serif;
 	font-size: 18px;
 	padding: 0 5px 5px;
 }
@@ -977,11 +940,9 @@ body.logged-in #page-wrapper #main-content-wrapper {
 	height: 15px;
 }
 
-/* Quick Links Footer Menu Styling
--------------------------------------- */
 #footer #footer-right #block-menu-menu-interior-footer-menu ul, #footer #footer-right #block-block-2, #footer #footer-right #block-block-2 p {
 	padding-left: 0;
-	font-family:'ProximaNovaAExCn-Regular', 'Arial Narrow', sans-serif; 
+	font-family:'Georgia-Regular', sans-serif; 
 	font-size: 18px;
 }
 
@@ -1024,8 +985,6 @@ body.logged-in #page-wrapper #main-content-wrapper {
 	margin: 5px 0;
 }
 
-/* Evergreen Footer
--------------------------------------- */
 #evergreen-footer {
     background: #000000;
     width: 100%;
@@ -1081,7 +1040,6 @@ body.logged-in #page-wrapper #main-content-wrapper {
 }
 
 #evergreen-footer ul.menu {
-	/*font-family:'ProximaNovaSExCn-Semibold', 'Arial Narrow', sans-serif; */
 	margin: 0;
 	padding: 0;
 	width: 370px;
@@ -1113,8 +1071,6 @@ body.logged-in #page-wrapper #main-content-wrapper {
 	top: 2px;
 }
 
-/* Form Fields Elements
--------------------------------------- */
 #footer #footer-right form#robly_embedded_subscribe_form input,
 form#connect-form input {
 	background-color: #FFF000;
@@ -1275,7 +1231,7 @@ input#edit-submit--3 {
 }
 
 #right #comments form#comment-form label {
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: 'Georgia', serif;
 	font-size: 12px;
 	font-style: italic;
 	font-weight: 100;
@@ -1300,7 +1256,7 @@ input#edit-submit--3 {
 
 #right #comments input.text-full,
 #right #comments textarea {
-	background: #EAEBE1;
+	background: #236600;
 	border: none;
 }
 
@@ -1327,8 +1283,6 @@ input#edit-submit--3 {
 	font-size: 20px!important;
 }
 
-/* Blog Form Field Elements
--------------------------------------- */
 #right .node-heading form#robly_embedded_subscribe_form {
 	left: 4px;
 	top: -12px;
@@ -1369,8 +1323,6 @@ input#edit-submit--3 {
    float: left;
 }
 
-/* Content Widgets
--------------------------------------- */
 div.node .custom-lab-panel-layout .panel-col-top-right .pane-block-4,
 div.node .custom-lab-panel-layout .panel-col-top-right .pane-block-18,
 div.node .custom-lab-panel-layout .panel-col-top-right .pane-block-34  {
@@ -1384,7 +1336,7 @@ div.node .custom-lab-panel-layout .panel-col-top-right .pane-block-34 span.red,
 #right .region-content .node-box span.red {
 	color: #FFF000;
 	text-transform: uppercase;
-	font-family: 'ProximaNovaSExCn-Semibold';
+	font-family: 'Georgia-Semibold';
 }
 
 div.node .custom-lab-panel-layout .panel-col-top-right .pane-block-4 p.red,
@@ -1409,7 +1361,7 @@ div.node .custom-lab-panel-layout .panel-col-top-right .pane-block-18 p a {
 	border: 0;
 	text-transform: uppercase;
 	color: #000000;
-	font-family: 'ProximaNovaSExCn-Semibold';
+	font-family: 'Georgia-Semibold';
 	font-size: 14px;
 }
 
@@ -1417,8 +1369,6 @@ div.node .custom-lab-panel-layout .panel-col-top-right .pane-block-18 p a {
 	  padding-left: 5px;	
 }
 
-/* Box Tray
-------------------------------- */
 #right .region-content .node-box .node-title h1 {
     font-size: 22px;
     text-transform: uppercase;
@@ -1454,7 +1404,7 @@ div.node .custom-lab-panel-layout .panel-col-top-right .pane-block-18 p a {
 }
 
 #right .region-content .box h2.pane-title {
-	font-family: 'ProximaNovaSExCn-Regular','Arial Narrow',sans-serif;
+	font-family: 'Georgia', sans-serif;
 	padding: 0 10px;	
 	font-size: 22px;
 	text-transform: uppercase;
@@ -1476,7 +1426,7 @@ div.node .custom-lab-panel-layout .panel-col-top-right .pane-block-18 p a {
 }
 
 #right .region-content .node-box form#robly_embedded_subscribe_form input {
-	background: #D22630;
+	background: #FFF000;
 	border: medium none;
 	color: #FFFFFF;
 	height: 24px;
@@ -1486,8 +1436,6 @@ div.node .custom-lab-panel-layout .panel-col-top-right .pane-block-18 p a {
   display:none;
 }
 
-/* Mini Slide
-------------------------------- */
 #right .region-content .node-mini-slide .content {
 	position: relative;
 }
@@ -1519,12 +1467,12 @@ div.node .custom-lab-panel-layout .panel-col-top-right .pane-block-18 p a {
 	color: #FFF000;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-family: 'ProximaNovaSExCn-Semibold', 'Arial Narrow', sans-serif;
+	font-family: 'Georgia', sans-serif;
 }
 
 #right .region-content .node-mini-slide .field-name-field-headine p {
 	bottom: -85px;
-	font-family: 'ProximaNovaSExCn-Regular','Arial Narrow',sans-serif;
+	font-family: 'Georgia', sans-serif;
 	font-size: 90px;
 	line-height: 32px;
 	margin: 0;
@@ -1538,7 +1486,7 @@ div.node .custom-lab-panel-layout .panel-col-top-right .pane-block-18 p a {
 
 #right .region-content .node-mini-slide .field-name-field-show-title {
 	padding: 0 10px;
-	font-family: 'ProximaNovaSExCn-Regular', 'Arial Narrow', sans-serif;
+	font-family: 'Georgia', sans-serif;
 	text-transform: uppercase;
 	font-size: 20px;
 	padding-left: 10px;
@@ -1552,7 +1500,7 @@ div.node .custom-lab-panel-layout .panel-col-top-right .pane-block-18 p a {
 
 #right .region-content .node-mini-slide .field-name-field-sub-headline {
 	padding: 0 10px;
-	font-family: 'ProximaNovaSExCn-Regular', 'Arial Narrow', sans-serif;
+	font-family: 'Georgia', sans-serif;
 	font-size: 42px;
 	text-transform: uppercase;
 }
@@ -1563,7 +1511,7 @@ div.node .custom-lab-panel-layout .panel-col-top-right .pane-block-18 p a {
 }
 
 #right .region-content .node-mini-slide div.field-name-field-headine {
-	background: none repeat scroll 0 0 #555555;
+	background: none repeat scroll 0 0 #f09900;
 	height: 120px;
 	left: 20px;
 	padding: 10px;
@@ -1576,8 +1524,6 @@ div.node .custom-lab-panel-layout .panel-col-top-right .pane-block-18 p a {
 	margin: 0; padding: 0; list-style: none; 
 	}
 	
-/* Grid Content
-------------------------------- */
 .node-grid-item {
   max-width:400px;
 }
@@ -1613,7 +1559,7 @@ div.node .custom-lab-panel-layout .panel-col-top-right .pane-block-18 p a {
 	}
 
 #right .region-content .node-grid-item .field-name-field-subject {
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: 'Georgia', serif;
 	padding: 6px 0px 0px 26px;
 	font-size: 14px;
 	color: #236600;
@@ -1622,13 +1568,12 @@ div.node .custom-lab-panel-layout .panel-col-top-right .pane-block-18 p a {
 
 #right .region-content .node-grid-item .field-name-field-heading {
 	padding: 0 26px;
-	font-family:'ProximaNovaExCn-Regular', 'Arial Narrow', sans-serif;
+	font-family:'Georgia', sans-serif;
 	font-size: 22px;
 	text-transform: uppercase;
 }
 
 #right .region-content .node-grid-item .field-name-field-image {
-  /*margin-top:20px;*/
   max-height: 266px;
   overflow: hidden;
 }
@@ -1643,7 +1588,7 @@ div.node .custom-lab-panel-layout .panel-col-top-right .pane-block-18 p a {
 }
 
 #right .region-content .node-grid-item .field-name-field-link a,  .more a {
-	font-family:'ProximaNovaAExCn-Semibold', 'Arial Narrow', sans-serif;
+	font-family:'Georgia-Semibold', sans-serif;
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #000000;
@@ -1664,23 +1609,18 @@ border-bottom: 0px!important;
 .imgBorder img {background-color: #F09900; opacity: .5;
 }
 
-/* issuu embeds
-------------------------------- */
 .issuuembed a {color:#ffffff;
 }
 .issuuembed {text-align: center; font-size: 1px; line-height:1px; background-color: #ffffff!important; color:#ffffff;
 }
 
-
-/* Video View and Content Type
-------------------------------- */
 .view-videos {
 	padding-top: 15px;
 }
 
 .view-videos .views-field-title a,
 .node-video .field-name-field-category a {
-	font-family:'ProximaNova-Semibold', 'Arial Narrow', sans-serif;
+	font-family:'Georgia-Semibold', sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
 	font-size: 13px;
@@ -1688,7 +1628,7 @@ border-bottom: 0px!important;
 }
 
 .view-videos .view-content h3 {
-	font-family:'ProximaNovaExCn-Regular', 'Arial Narrow', sans-serif;
+	font-family:'Georgia-Regular', sans-serif;
 	font-size: 34px;
 	padding-left: 0;
 	margin-bottom: 10px;
@@ -1718,7 +1658,7 @@ border-bottom: 0px!important;
 
 .node-video h2 {
 	font-size: 48px;
-	font-family:'ProximaNovaExCn-Regular', 'Arial Narrow', sans-serif;
+	font-family:'Georgia-Regular', sans-serif;
 	text-transform: uppercase;
 }
 
@@ -1746,7 +1686,7 @@ border-bottom: 0px!important;
 
 div.embedded-video div.player {
 	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
+	padding-bottom: 56.25%;
 	padding-top: 25px;
 	height: 0;
 }
@@ -1778,7 +1718,7 @@ div.embedded-video div.player {
 .view-display-id-block_2 .item-list li,
 .view-display-id-block_2 .item-list li a {
 	font-size: 18px;
-	font-family: 'ProximaNovaExCn-Light', 'Arial Narrow', sans-serif;
+	font-family: 'Georgia', sans-serif;
 	color: #236600;
 	font-weight: 100;
 	text-transform: none;
@@ -1788,11 +1728,6 @@ div.embedded-video div.player {
 	margin-left: 46px;
 }
 
-
-
-
-/* Blog Content Type
-------------------------------- */
 body.not-front #right .region-content .node-heading {
 	position: relative;
 }
@@ -1841,7 +1776,7 @@ body.not-front body.not-front #node-content .node-author {
 }
 
 #right .region-content .node-heading p#blog-widget-line-1 {
-	font-family: 'ProximaNovaExCn-Light', 'Arial Narrow', sans-serif;;
+	font-family: 'Georgia', sans-serif;;
 	font-size: 20px;
 	text-transform: uppercase;
 }
@@ -1849,9 +1784,6 @@ body.not-front body.not-front #node-content .node-author {
 .node-social .addthis_toolbox{
   width: 225px;
 }
-
-/* Blog Taxonomy Lists
-------------------------------- */
 
 #block-views-taxonomy-lists-2-block .node-heading,
 #right .region-content #block-views-taxonomy-lists-2-block .node-social {
@@ -1872,7 +1804,7 @@ body.not-front body.not-front #node-content .node-author {
 
 .view-blog .view-header p,
 #block-views-taxonomy-lists-2-block h2.title {
-	font-family: 'ProximaNova-Semibold';
+	font-family: 'Georgia-Semibold';
 	font-size: 12px;
 	text-transform: uppercase;
 	color: #FFF000;
@@ -1881,13 +1813,13 @@ body.not-front body.not-front #node-content .node-author {
 .view-blog .view-header p span.topic {
 	font-size: 34px;
 	text-transform: none;
-	font-family: 'ProximaNovaExCn-Regular';
+	font-family: 'Georgia-Regular';
 	line-height: 34px;
 	font-weight: 100;
 }
 #block-views-taxonomy-lists-2-block .views-field-name a {
 	color: #236600;
-	font-family: 'ProximaNovaAExCn-Regular';
+	font-family: 'Georgia-Regular';
 	font-size: 20px;
 	font-style: normal;
 	text-transform: uppercase;
@@ -1900,7 +1832,7 @@ body.not-front body.not-front #node-content .node-author {
 .view-blog .view-header .view-header-wrapper {
 	padding: 0 0 0.25em 1em;
   margin-left: 15px;
-	border-left: 4px solid #D22630;
+	border-left: 4px solid #FFF000;
 }
 
 .view-id-blog .view-header .blog-taxonomy {
@@ -1917,10 +1849,6 @@ body.not-front body.not-front #node-content .node-author {
 	border-left: none;
 }
 
-
-
-/* Blog Landing Page
-------------------------------- */
 body.not-front #right .view-blog ul.left-col,
 body.not-front #right .view-blog ul.right-col {
 	width: 450px;
@@ -1953,14 +1881,14 @@ body.not-front #right .view-blog ul li.views-row {
 }
 
 body.not-front #right .view-blog .views-field-created {
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: 'Georgia', serif;
 	font-size: 11px;
 	line-height: 16px;	
 	margin-top: 0;
 }
 
 body.not-front .view-blog .views-field-title {
-	font-family: 'ProximaNovaAExCn-Regular','Arial Narrow',sans-serif;
+	font-family: 'Georgia', sans-serif;
 	font-size: 34px;
 	line-height: 34px;
 	margin: 5px 0;
@@ -1969,7 +1897,7 @@ body.not-front .view-blog .views-field-title {
 }
 
 body.not-front .view-blog .views-field-term-node-tid {
-	font-family: 'ProximaNovaExCn-Semibold','Arial Narrow',sans-serif;
+	font-family: 'Georgia', sans-serif;
 	font-size: 14px;
 	line-height: 18px;
 	text-transform: uppercase;
@@ -1977,7 +1905,7 @@ body.not-front .view-blog .views-field-term-node-tid {
 }
 
 body.not-front .view-blog .views-field-name {
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: 'Georgia', serif;
 	font-size: 11px;
 	line-height: 16px;	
 	margin-top: 20px;
@@ -1987,7 +1915,7 @@ body.not-front .view-blog .views-field-name {
 }
 
 body.not-front .view-blog .views-field-body {
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: 'Georgia', serif;
 	font-size: 16px;
 	line-height: 26px;	
 	font-weight: 100;
@@ -1999,7 +1927,7 @@ body.not-front .view-blog .item-list ul.pager li {
 }
 
 body.not-front .view-blog .item-list ul.pager {
-	font-family: 'ProximaNova-Semibold','Arial Narrow',sans-serif;
+	font-family: 'Georgia', sans-serif;
 	padding-top: 10px;
 	font-size: 12px;
 	color: #FFF000;
@@ -2009,7 +1937,7 @@ body.not-front .view-blog .item-list ul.pager {
 
 
 body.not-front .view-blog .item-list ul.pager a {
-	font-family: 'ProximaNova-Semibold','Arial Narrow',sans-serif;
+	font-family: 'Georgia', sans-serif;
 	font-size: 12px;
 	color: #236600;
 	text-transform: uppercase;
@@ -2045,28 +1973,21 @@ body.not-front .view-blog .item-list li.pager-last,
 body.not-front .view-blog .item-list li.pager-first {
 	display: none;
 } 
-/* tables
-------------------------------- */
-tr, td {font-family: 'ProximaNovaExCn-Light', Arial,sans-serif;
+
+tr, td {font-family: 'Georgia', sans-serif;
 	font-size: 19px;
 	line-height: 26px;
 	color:#000000;
 }
-/*strong {font-weight: normal;
-}
-*/
-/* 061713 blog
-------------------------------- */
+
 #right .region-content #node-content, #right .region-content #comments {
-	/*padding: 30px 50px;*/
 }
 
 .field-items ul a {
 border-bottom: 1px solid rgb(209, 211, 195);
 }
 
-/* 061713 alignment
-------------------------------- */
+
 .custom-lab-panel-layout .panel-col-top, .custom-lab-panel-layout .panel-col-middle, .custom-lab-panel-layout .panel-col-bottom {
 margin-left: 30px;
 }
@@ -2136,15 +2057,12 @@ left: -10px;
 .search-results {
 	margin-left: 20px;
 }
-/* 062013 hide advanced search
-------------------------------- */
 .search-form {
     display: none;
 }
 
-/* Webform global styles - also in bfa and comm_survey */
 .webform-component--intro-text p {
-  font-family: 'ProximaNovaExCn-Regular', 'Arial Narrow', sans-serif; 
+  font-family: 'Georgia', sans-serif; 
   text-align: left;
   margin:10px 0 0 20px;
   font-size: 1.3em;
@@ -2159,7 +2077,6 @@ text-decoration:none;
   display:none;
 }
 
-/* Blog Adjustments */
 #blog-widget-line-2 a.rss-link {
 	border-bottom: none;
 	margin-top: 4px;
@@ -2170,17 +2087,10 @@ text-decoration:none;
 	color: transparent;
 }
 
-
-/* Responsive layout - Slide Menu http://www.callmenick.com/2014/03/26/slide-and-push-menus-with-css3-transitions/
-
-*/
-
-/* video wrapper */
-/* embedded iframe videos - http://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
 .videoWrapper,
 .issuuembed {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
+  padding-bottom: 56.25%;
   height: 0 !important;
 }
 .issuuembed { 
@@ -2215,7 +2125,6 @@ text-decoration:none;
 }
 
 @media all and (max-width: 1100px) {
-	/* other style adjustments */
 
 	body.menu-open #left a img {
 		display: none;
@@ -2229,7 +2138,6 @@ text-decoration:none;
 	}
 
 	#right .region-content .node-title-container {
-		/*width: 32%;*/
 	}
 
 	#right .region-content .node-heading .node-heading-image-container {
@@ -2270,7 +2178,6 @@ text-decoration:none;
 	.custom-lab-panel-layout .panel-col-top, .custom-lab-panel-layout .panel-col-middle, .custom-lab-panel-layout .panel-col-bottom {
 		min-width: 0;
 	}
-  /* Blog page adjustments */
   body.not-front #right .view-blog ul.left-col,
   body.not-front #right .view-blog ul.right-col {
   	float: none;
@@ -2321,7 +2228,6 @@ text-decoration:none;
 		min-height: 0;
 	}
 
-	/* Hide search elements from left sidebar */
 	#left #block-block-1,
 	#left #scroll-search {
 		display: none;
@@ -2399,16 +2305,6 @@ text-decoration:none;
 		margin-left: 50px;
 	}
 
-
-
-/*
-	#right .region-content #hdr1-red.node-heading,
-	#right .region-content #hdr2-red.node-heading,
-	#right .region-content #hdr3-red.node-heading {
-		background: transparent;
-	}*/
-
-	/* menu */
 	#left {
 		position: fixed;
 	  z-index: 20;
@@ -2421,7 +2317,6 @@ text-decoration:none;
 	  transition: all 0.3s;
 	}
 
-	/* search */
 	#mobile-search {
 		display: block;
 		position: fixed;
@@ -2434,8 +2329,7 @@ text-decoration:none;
 	  -o-transition: all 0.3s;
 	  transition: all 0.3s;
 	}
-
-	 /*wrapper */
+    
 	#right {
 		position: relative;
 	  z-index: 10;
@@ -2486,11 +2380,10 @@ text-decoration:none;
   }
 
 	.toggle-slide-menu {
-		background: url(../images/lab-tablet-menu.svg) 45% 50% no-repeat;  /* shows image */
-    height: 50px;                        /* be sure to set height & width */
+		background: url(../images/lab-tablet-menu.svg) 45% 50% no-repeat; 
+    height: 50px;                       
     width:  50px;
 
-    /* Hide the text. */
     text-indent: -9999px;
     white-space: nowrap;
     overflow: hidden;
@@ -2503,12 +2396,11 @@ text-decoration:none;
 	}
 
 	.close-menu {
-		background: url(../images/lab-tablet-menu-close.svg) 45% 50% no-repeat;  /* shows image */
+		background: url(../images/lab-tablet-menu-close.svg) 45% 50% no-repeat; 
 		display: none;
-		height: 50px;                        /* be sure to set height & width */
+		height: 50px;       
     width:  50px;
 
-    /* Hide the text. */
     text-indent: -9999px;
     white-space: nowrap;
     overflow: hidden;
@@ -2522,11 +2414,10 @@ text-decoration:none;
 
 	.toggle-slide-search,
 	.search-toggle .close-menu {
-		background: url(../images/lab-search-button.png) 50% 50% no-repeat;  /* shows image */
-    height: 40px;                        /* be sure to set height & width */
+		background: url(../images/lab-search-button.png) 50% 50% no-repeat;
+    height: 40px;                       
     width:  30px;
 
-    /* Hide the text. */
     text-indent: -9999px;
     white-space: nowrap;
     overflow: hidden;
@@ -2541,7 +2432,7 @@ text-decoration:none;
 	}
 
 	.search-toggle .close-menu {
-		background: url(../images/lab-tablet-menu-close.png) 50% 50% no-repeat;  /* shows image */
+		background: url(../images/lab-tablet-menu-close.png) 50% 50% no-repeat;
 		width: 50px;
 		height: 50px;
 		margin-left: 0;
@@ -2654,10 +2545,6 @@ text-decoration:none;
 	#mobile-search #block-block-11  {
 		left: 0;
 	}
-
-
-  /* Blog page */
-
   
 	.page-blog #responsive-logo,
 	.node-type-blog #responsive-logo,
@@ -2673,7 +2560,6 @@ text-decoration:none;
 		margin-left: 65px;
 	}
 
-	/* BFA */
 	#bfa-awards-wrapper {
 		margin-left: 0;
 	}
@@ -2686,14 +2572,11 @@ text-decoration:none;
 
 @media all and (max-width: 767px) {
 
-	/* Hide popup message on mobile */
 	#popup-message-background, 
 	#popup-message-window {
   	display: none !important;
 	}
 
-
-	/* Responsive popup announcement */
 	#popup-announcement-wrap {
 		width:95% !important;
 		max-width: 95% !important;
@@ -2860,20 +2743,19 @@ text-decoration:none;
 		text-align: center;
 		background-color: #F09900;
 		text-transform: uppercase;
-		font-family:'ProximaNovaSExCn-Semibold', 'Arial Narrow', sans-serif;
+		font-family:'Georgia-Regular', sans-serif;
 		font-size: 15px;
 	}
 
 	.mobile-donate-join span.donate {
-		background: #D1D3C3 url(../images/lab-white-border.png) 100% 0 repeat-y;
+		background: #236600 url(../images/lab-white-border.png) 100% 0 repeat-y;
 	}
 
 	.toggle-slide-menu {
-		background: url(../images/lab-mobile-menu.svg) 50% 50% no-repeat;  /* shows image */
-    height: 33px;                        /* be sure to set height & width */
+		background: url(../images/lab-mobile-menu.svg) 50% 50% no-repeat;
+    height: 33px;                        
     width:  33px;
 
-    /* Hide the text. */
     text-indent: -9999px;
     white-space: nowrap;
     overflow: hidden;
@@ -2883,12 +2765,11 @@ text-decoration:none;
 	}
 
 	.close-menu {
-		background: url(../images/lab-mobile-close.svg) 50% 50% no-repeat;  /* shows image */
+		background: url(../images/lab-mobile-close.svg) 50% 50% no-repeat; 
 		
-		height: 33px;                        /* be sure to set height & width */
+		height: 33px;
     width:  33px;
 
-    /* Hide the text. */
     text-indent: -9999px;
     white-space: nowrap;
     overflow: hidden;
@@ -2968,11 +2849,10 @@ text-decoration:none;
 
   .toggle-slide-search,
 	.search-toggle .close-menu {
-		background: url(../images/lab-mobile-search.svg) 50% 50% no-repeat;  /* shows image */
-    height: 33px;                        /* be sure to set height & width */
+		background: url(../images/lab-mobile-search.svg) 50% 50% no-repeat; 
+    height: 33px;                       
     width:  33px;
 
-    /* Hide the text. */
     text-indent: -9999px;
     white-space: nowrap;
     overflow: hidden;
@@ -2988,10 +2868,9 @@ text-decoration:none;
   }
 
 	.search-toggle .close-menu {
-		background: url(../images/lab-mobile-close.svg) 50% 50% no-repeat;  /* shows image */
-		height: 33px;                        /* be sure to set height & width */
+		background: url(../images/lab-mobile-close.svg) 50% 50% no-repeat;
+		height: 33px;                       
     width:  33px;
-    /* Hide the text. */
     text-indent: -9999px;
     white-space: nowrap;
     overflow: hidden;
@@ -3044,7 +2923,6 @@ text-decoration:none;
     padding-left: 15px;
 	}
 
-	/* Toggle from the top on mobile */
 	#left {
     left: 0;
     width: 100%;
@@ -3088,10 +2966,9 @@ text-decoration:none;
 		width: 100%;
 		margin-bottom: 1em;
 		margin-top: 15px;
-		display: none; /*trying this out for now */
+		display: none;
 	}
 
-	/* hiding box slider for now */
 	.box-slideshow-wrapper {
 		display: none;
 	}
@@ -3109,7 +2986,6 @@ text-decoration:none;
 		padding-right: 0;
 	}
 
-	/* General page styles */
  	body.not-front .pane-content ul {
  		margin-left: 20px;
  	}
@@ -3118,7 +2994,6 @@ text-decoration:none;
  		margin-left: 0;
  	}
 
-	/* Blog adjustments */
 	body.not-front #right .region-content .node-heading .node-blog-widget-container {
   	width: 220px;
   }
@@ -3165,12 +3040,10 @@ text-decoration:none;
   	line-height: 1;
   }
 
-  /* BFA - most is in bfa.css, some exceptions */
   #bfa-awards-wrapper {
   	margin-left: 0;
   }
 
-  /* Node Grid */
   #right .region-content .grid-item {
   	float: none;
   	width: 100%;
@@ -3186,7 +3059,7 @@ text-decoration:none;
   #right .region-content .grid-item.grid-small .pane-content { {
   	height: auto;
   }
-
+    }
   #right .region-content .grid-item p{
 		padding-left: 0;
 	}
