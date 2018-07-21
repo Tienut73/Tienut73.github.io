@@ -207,7 +207,7 @@ h5, th {
 h6, address {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 14px;
-	color: #5A5F49;
+	color: #236600;
 	font-style: italic;
 }
 
@@ -223,7 +223,7 @@ p {
 }
 
 p a {
-	color: #595e48; 
+	color: #236600; 
 	border-bottom: 1px solid #d1d3c3;
 	text-decoration: none;
 }
@@ -343,7 +343,7 @@ a {
 }
 
 a:hover {
-	color: #d22630;
+	color: #236600;
 }
 
 #node-content div.node-date,
@@ -389,13 +389,13 @@ a:hover {
 
 #comments .content {
 	font-family: Georgia, Arial, serif;
-	color: #5A5F49;
+	color: #236600;
 	font-size: 16px;
 	padding-top: 10px;
 	padding-left: 40px;
 }
 #comments .comment-datestamp {
-	color: #5A5F49;
+	color: #236600;
 	text-transform: uppercase;
 	font-size: 13px;
 	font-family: 'ProximaNova-Semibold', Arial, serif;
@@ -443,7 +443,7 @@ ol > li:before {
     -webkit-box-sizing:border-box;
     box-sizing:border-box;
     width:2em;
-	color:#eaebe1;
+	color:#FFF000;
 	font-size: 40px;
     /* Some space between the number and the content in browsers that support
        generated content but not positioning it (Camino 2 is one example) */
@@ -595,7 +595,7 @@ body.logged-in #page-wrapper #main-content-wrapper {
 	clear: both;
 	margin-left: auto;
     margin-right: auto;
-    color: #D22630;
+    color: #FFF000;
 	font-family: 'ProximaNovaSExCn-Light', 'Arial Narrow', sans-serif;
 	text-transform: uppercase;
 }
@@ -669,15 +669,15 @@ body.logged-in #page-wrapper #main-content-wrapper {
 }
 
 #left #block-menu-menu-interior-menu a:hover {
-	color: #d22630;
+	color: #236600;
 }
 
 #left #block-menu-menu-interior-menu a.active {
-	color: #D22630;
+	color: #FFF000;
 }
 
 #left #block-menu-menu-interior-menu ul li ul li a {
-	color: #5A5F49;
+	color: #236600;
 	font-size: 20px;
 }
 
@@ -755,7 +755,7 @@ body.logged-in #page-wrapper #main-content-wrapper {
 #right .region-content .node-social .social-button {
 	text-transform: uppercase;
 	font-family:'ProximaNovaSExCn-Semibold', 'Arial Narrow', sans-serif;
-	color: #AAAF9B	;
+	color: #F09900	;
 	font-size: 14px;
 }
 
@@ -894,7 +894,7 @@ body.logged-in #page-wrapper #main-content-wrapper {
 	font-family: Georgia;
 	font-style: italic;
 	font-size: 12px;
-	color: #aaaf9b;
+	color: #F09900;
 }
 
 .node-webform .field-name-field-image-caption .field-item {
@@ -1117,7 +1117,7 @@ body.logged-in #page-wrapper #main-content-wrapper {
 -------------------------------------- */
 #footer #footer-right form#robly_embedded_subscribe_form input,
 form#connect-form input {
-	background-color: #5A5F49;
+	background-color: #FFF000;
 	color: #ffffff;
 	border: none;
 	height: 24px;
@@ -1128,7 +1128,7 @@ form#connect-form input {
 
 form#search-block-form input,
 form#search-block-form--2 input {
-	background-color: #5A5F49;
+	background-color: #FFF000;
 	color: #ffffff;
 	border: none;
 	height: 20px;
@@ -1143,7 +1143,7 @@ div.node .custom-lab-panel-layout .panel-col-top-right .pane-block-18 form#robly
     background-position: 12px center;
     background-size: 21px auto;
     background-repeat: no-repeat;
-    background-color:  #D22630;
+    background-color:  #FFF000;
 	border: medium none;
 	color: #ffffff;
 	height: 24px;
@@ -1166,7 +1166,7 @@ div.node .custom-lab-panel-layout .panel-col-top-right .pane-block-18 form#robly
 	position: relative;
 	left: -5px;
 	margin-top: 10px;
-	background-color: #D22630;
+	background-color: #FFF000;
 }
 
 div.node .custom-lab-panel-layout .panel-col-top-right .pane-block-4 form#robly_embedded_subscribe_form input.form-submit,
@@ -1205,7 +1205,7 @@ div.node .custom-lab-panel-layout .panel-col-top-right .pane-block-18 form#robly
     height: 23px;
     width: 24px;
     border: medium none;
-    background-color: #5A5F49;
+    background-color: #236600;
     margin-left: 15px;
     color: transparent;
     font-size: 12px;
@@ -1358,7 +1358,7 @@ input#edit-submit--3 {
 
 #right .node-heading form#mc-embedded-subscribe-form input {
 	border: medium none;
-	color: #D22630;
+	color: #FFF000;
 	padding: 0px;
 }
 #right .node-heading form#mc-embedded-subscribe-form #mce-EMAIL {
@@ -1382,7 +1382,7 @@ div.node .custom-lab-panel-layout .panel-col-top-right .pane-block-4 span.red,
 div.node .custom-lab-panel-layout .panel-col-top-right .pane-block-18 span.red,
 div.node .custom-lab-panel-layout .panel-col-top-right .pane-block-34 span.red,
 #right .region-content .node-box span.red {
-	color: #D22630;
+	color: #FFF000;
 	text-transform: uppercase;
 	font-family: 'ProximaNovaSExCn-Semibold';
 }
@@ -1516,7 +1516,7 @@ div.node .custom-lab-panel-layout .panel-col-top-right .pane-block-18 p a {
 #right .region-content .node-mini-slide .field-name-field-link a {
 	padding: 0 10px;
 	font-size: 14px;
-	color: #D22620;
+	color: #FFF000;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-family: 'ProximaNovaSExCn-Semibold', 'Arial Narrow', sans-serif;
@@ -1616,7 +1616,7 @@ div.node .custom-lab-panel-layout .panel-col-top-right .pane-block-18 p a {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	padding: 6px 0px 0px 26px;
 	font-size: 14px;
-	color: #5A5F49;
+	color: #236600;
 	font-style: italic;
 }
 
@@ -1650,7 +1650,7 @@ div.node .custom-lab-panel-layout .panel-col-top-right .pane-block-18 p a {
 	text-decoration: none;
 	border-bottom: none;
 }
-.more a { color: #d22630;
+.more a { color: #FFF000;
 border-bottom: 0px!important;
 }
 
@@ -1661,7 +1661,7 @@ border-bottom: 0px!important;
 #right .region-content .node-grid-item .field-name-body {
 	padding: 0 10px; 
 }
-.imgBorder img {background-color: #eaebe1; opacity: .5;
+.imgBorder img {background-color: #F09900; opacity: .5;
 }
 
 /* issuu embeds
@@ -1779,7 +1779,7 @@ div.embedded-video div.player {
 .view-display-id-block_2 .item-list li a {
 	font-size: 18px;
 	font-family: 'ProximaNovaExCn-Light', 'Arial Narrow', sans-serif;
-	color: #5A5F49;
+	color: #236600;
 	font-weight: 100;
 	text-transform: none;
 }
@@ -1875,7 +1875,7 @@ body.not-front body.not-front #node-content .node-author {
 	font-family: 'ProximaNova-Semibold';
 	font-size: 12px;
 	text-transform: uppercase;
-	color: #D22630;
+	color: #FFF000;
 	font-weight: 100;
 }
 .view-blog .view-header p span.topic {
@@ -1886,7 +1886,7 @@ body.not-front body.not-front #node-content .node-author {
 	font-weight: 100;
 }
 #block-views-taxonomy-lists-2-block .views-field-name a {
-	color: #5A5F49;
+	color: #236600;
 	font-family: 'ProximaNovaAExCn-Regular';
 	font-size: 20px;
 	font-style: normal;
@@ -1982,7 +1982,7 @@ body.not-front .view-blog .views-field-name {
 	line-height: 16px;	
 	margin-top: 20px;
 	font-style: italic;
-	color: #5A5F49;
+	color: #236600;
 	margin-bottom: 5px;
 }
 
@@ -2002,7 +2002,7 @@ body.not-front .view-blog .item-list ul.pager {
 	font-family: 'ProximaNova-Semibold','Arial Narrow',sans-serif;
 	padding-top: 10px;
 	font-size: 12px;
-	color: #D22630;
+	color: #FFF000;
 	text-transform: uppercase;
 	width: 360px;
 }
@@ -2011,14 +2011,14 @@ body.not-front .view-blog .item-list ul.pager {
 body.not-front .view-blog .item-list ul.pager a {
 	font-family: 'ProximaNova-Semibold','Arial Narrow',sans-serif;
 	font-size: 12px;
-	color: #5A5F49;
+	color: #236600;
 	text-transform: uppercase;
 }
 
 body.not-front .view-blog .item-list ul.pager li.pager-previous a:after {
 	content: '|';
 	padding-left: 10px;
-	color: #D22630;
+	color: #FFF000;
 }
 
 
@@ -2032,12 +2032,12 @@ body.not-front .view-blog .views-field-field-image img {
 body.not-front .view-blog .item-list ul.pager li.pager-next a:before {
 	content: '|';
 	padding-right: 10px;
-	color: #D22630;
+	color: #FFF000;
 }
 
 body.not-front .view-blog .item-list li.pager-next a,
 body.not-front .view-blog .item-list li.pager-previous a {
-	color: #D22630;
+	color: #FFF000;
 } 
 
 
@@ -2380,7 +2380,7 @@ text-decoration:none;
 
 		height: 100%;
 		width: 50px;
-		background-color: #D22630;
+		background-color: #FFF000;
 	}
 
 	.search-toggle {
@@ -2471,7 +2471,7 @@ text-decoration:none;
 	}
 
 	body.search-open .search-toggle {
-		background-color: #D22630;
+		background-color: #FFF000;
     display: block;
     height: 100%;
     left: 0;
@@ -2847,7 +2847,7 @@ text-decoration:none;
 		display: block;
 		position: absolute;
 		bottom: 0;
-		background-color: #D1D3C3;
+		background-color: #F09900;
 		width: 100%;
 	}
 
@@ -2858,7 +2858,7 @@ text-decoration:none;
 		height: 20px;
 		line-height: 20px;
 		text-align: center;
-		background-color: #D1D3C3;
+		background-color: #F09900;
 		text-transform: uppercase;
 		font-family:'ProximaNovaSExCn-Semibold', 'Arial Narrow', sans-serif;
 		font-size: 15px;
@@ -2903,7 +2903,7 @@ text-decoration:none;
 	}
 
   body.search-open .search-toggle {
-		background-color: #D22630;
+		background-color: #FFF000;
     display: block;
     height: auto;
     right: 0;
