@@ -895,12 +895,12 @@ body.logged-in #page-wrapper #main-content-wrapper {
 
 #footer #footer-right #block-menu-menu-interior-footer-menu {
 	float: left;
-	width: 100%;
+	width: 75%;
 }
 
 #footer #footer-right #block-block-2 {
 	float: left;
-	width: 100%;
+	width: 25%;
 	margin-top: 16px;
 }
 
