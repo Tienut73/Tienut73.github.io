@@ -1,5 +1,5 @@
 h1, footer {
-  background-color: #95b8c4;
+  background-color:red;
   color: #fff;
   margin: 1.5rem auto;
   padding: 1rem;
@@ -12,6 +12,8 @@ h2 {
 }
 
 body {
+  font-size: 16px; 
+  line-height: 32px;
 text-align: center;  
 }
 
@@ -38,6 +40,7 @@ nav {
 }
 
 footer {
+  clear:both;
   font-family: "candara";
   font-size: 15px;
 }
