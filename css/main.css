@@ -38,6 +38,10 @@ nav {
   text-align: left;
 }
 
+footer a:link {
+  color: white;
+}
+
 footer {
   clear:both;
   font-family: "candara";
