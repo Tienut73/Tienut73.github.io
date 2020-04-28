@@ -21,7 +21,7 @@ text-align: center;
 }
 
 h1 {
-  font-family: "palatino";
+  font-family: 'Cabin Condensed', sans-serif;
   font-size: 50px;
 }
 
@@ -44,6 +44,6 @@ footer a:link {
 
 footer {
   clear:both;
-  font-family: "candara";
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
 }
