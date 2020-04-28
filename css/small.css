@@ -48,8 +48,9 @@ footer a:link {
   color: white;
 }
 
-footer {
-  clear:both;
+header, footer {
+  text-align: center;
+background-color: var(--red);
   font-family: 'Roboto', sans-serif;
-  font-size: 15px;
+  color: #fff;
 }
