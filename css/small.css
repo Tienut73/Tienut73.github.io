@@ -51,5 +51,5 @@ header, footer {
   text-align: center;
 background-color: var(--red);
   font-family: 'Roboto', sans-serif;
-  color: #fff;
+  color: red;
 }
