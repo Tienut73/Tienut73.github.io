@@ -1,3 +1,5 @@
+@media (min-width: 480px) {
+
 h2 {color: blue; margin:0;border-bottom:1px dashed #999;}
 section {margin: 10px auto;width: 400px;border:1px solid #bbb;background-color:#eee; padding: 7px;}
 
@@ -15,10 +17,9 @@ section {margin: 10px auto;width: 400px;border:1px solid #bbb;background-color:#
       }
 
       img {
-        width: "200"; 
-        height: "273";
+        width: 200px; 
+        height: auto;
        float: right;
           }
-      
-
+        }
 }
