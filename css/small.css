@@ -1,6 +1,5 @@
 body {
-  font-family: sans-serif;
-  text-align: center;  
+  font-family: sans-serif;  
   font-size: 18px;
   line-height: 1.5;
 }
@@ -30,24 +29,13 @@ h1 {
   padding: .6rem;
   padding-left: 5rem;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.5px;
+  font-size: 1.5em;
 }
 
 h2 {
   font-size: 1rem;
   border-bottom: 1px solid #fff;
   max-width: 600px;
-  margin-bottom: 0.5rem;
-}
-
-img {
-  margin-top: 38px;
-  margin-right: 15px;
-  box-shadow: 10px 10px 10px grey;
-}
-
-nav {
-  text-align: left;
 }
 
 footer a {
@@ -70,11 +58,4 @@ footer .first {
 footer .second {
   padding-bottom: 15px;
   color: blue;
-}
-
-header, footer {
-  text-align: center;
-background-color: var(--red);
-  font-family: 'Roboto', sans-serif;
-  color: red;
 }
