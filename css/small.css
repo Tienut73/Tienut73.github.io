@@ -1,40 +1,46 @@
-h1, footer {
-  background-color:red;
-  color: #fff;
-  margin: 1.5rem auto;
-  padding: 1rem;
-  text-align: center;
-  border-radius: 15px;
+body {
+  font-family: sans-serif;
+  text-align: center;  
+  font-size: 18px;
+  line-height: 1.5;
 }
 
-h2 {
-  font-family: 'Roboto', sans-serif;
+header, nav, main, footer {
+  max-width: 700px;
+  margin: .5rem auto;
+}
+
+header, footer {
+  background-color:red;
+  color: #fff;
+}
+
+header {
   text-align: left;
 }
 
-body {
-text-align: center;  
-}
-
-#container {
-  display: inline-block;
-  width: 750px;
+header img {
+    display:block;
+    margin:auto;
+    width: 150px;
+    height:auto;
 }
 
 h1 {
-  font-family: 'Cabin Condensed', sans-serif;
+  padding: .6rem;
+  padding-left: 5rem;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.5px;
 }
 
 h2 {
   font-size: 1rem;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #fff;
+  max-width: 600px;
   margin-bottom: 0.5rem;
 }
 
 img {
-  width: 200px; 
-  height: auto;
   margin-top: 38px;
   margin-right: 15px;
   box-shadow: 10px 10px 10px grey;
@@ -44,8 +50,26 @@ nav {
   text-align: left;
 }
 
-footer a:link {
-  color: white;
+footer a {
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  line-height: 1rem;
+}
+
+footer .first {
+  padding-top: 15px;
+}
+
+footer .second {
+  padding-bottom: 15px;
+  color: blue;
 }
 
 header, footer {
