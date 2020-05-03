@@ -1,6 +1,6 @@
-@media only screen and (min-width: 66em) {
+@media only screen and (min-width: 60em) {
     main {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: auto auto auto;
     }
     
     section {
