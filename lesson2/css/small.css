@@ -28,15 +28,15 @@ header, footer {
 }
 
 h3 {
-    background-color: darkred;
+    background-color: lightcoral;
 }
 
 section {
-    background-color: grey;
+    background-color: whitesmoke;
     border-radius: 10px;
     max-width: 20em;
     text-align: center;
-    border: 1px solid darkslategrey;
+    border: 1px solid grey;
     box-shadow: 0 0 10px black;
     margin: 1rem auto;
 }
@@ -48,8 +48,8 @@ img {
 }
 
 .links {
-    background-color: yellow;
-    color: orange;
+    background-color: lightcoral;
+    color: black;
     padding: 4px 15px;
     border-radius: 40px;
 }
