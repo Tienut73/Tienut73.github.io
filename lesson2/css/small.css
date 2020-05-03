@@ -1,14 +1,8 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
         font-family: sans-serif;
         font-size: 18px;
         line-height: 1.5;
-        color: red;
+        color: black;
 }
 
 main {
@@ -38,7 +32,7 @@ h3 {
 }
 
 section {
-    background-color: lightgrey;
+    background-color: grey;
     border-radius: 10px;
     max-width: 20em;
     text-align: center;
@@ -54,8 +48,8 @@ img {
 }
 
 .links {
-    background-color: pink;
-    color: navy;
+    background-color: yellow;
+    color: orange;
     padding: 4px 15px;
     border-radius: 40px;
 }
