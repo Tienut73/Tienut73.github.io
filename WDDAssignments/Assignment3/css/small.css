@@ -39,10 +39,12 @@ nav button {
     color: #555;
 }
 nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex: 1 1 100%;
     list-style-type: none;
     padding: 0;
     margin: 0;
-    
     overflow: hidden;
 }
 nav ul li {
