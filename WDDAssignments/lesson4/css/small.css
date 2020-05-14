@@ -1,0 +1,153 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 16px;
+  font-family: Verdana, sans-serif;  /* Declare the base font-family */
+}
+
+header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+  max-width: 1280px; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+    margin: 1.25rem auto;
+    padding: .75rem;
+    background-color: azure;
+}
+
+header {
+    padding: .5rem 2%;
+    background-color: azure;
+    display: flex;
+    justify-content: space-between;
+}
+header h1 {
+    margin: 3%;
+}
+header .subheading {
+    font-weight: normal;
+}
+
+nav {
+    background-color: azure;
+    font-family: Verdana, sans-serif;
+}
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex: 1 1 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+nav ul li {
+    border-right:1px solid #bbb;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: red;
+    border-top:1px solid rgba(0,0,0,0.3);
+}
+nav ul li.active a {background-color: rgba(0,0,0,0.2); color: #fff;
+    
+}
+nav ul li a:hover {background-color: rgba(0,0,0,0.4);
+    
+}
+
+nav ul.hide {display: none;}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+}
+main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure.myphoto {
+    width: 50%;
+    border: 1px red dashed;
+}
+main figure.myphoto img {width: 100%;}
+main figure.myphoto img { text-align: center; font-size: .75rem;}
+
+/* 10-day forecast details should be set to "display:none;" in the small CSS view. */
+.forecast {
+
+     display: none;
+
+}
+
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    
+}
+form legend {
+    color: #445ba9;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form.label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color:red;
+    font-size: .8rem;
+}
+form label.top input, form label.top select {
+   -webkit-appearance:none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #9c2c13;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+form label.top input:required {
+    
+border-left:red solid 6px;
+}
+form label.top input:required:valid {
+    border-left: green solid 6px
+}
+
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
