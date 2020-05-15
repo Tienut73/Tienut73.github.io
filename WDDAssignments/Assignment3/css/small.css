@@ -143,11 +143,10 @@ form label.top input:required:valid {
 
 
 
-.footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+footer {
+    padding: .6rem 2%;
     background-color: red;
     color: white;
     text-align: center;
+    clear: both
 }

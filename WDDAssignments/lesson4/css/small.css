@@ -7,29 +7,42 @@ body {
   font-family: Verdana, sans-serif;  /* Declare the base font-family */
 }
 
-header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
-  max-width: 1280px; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
-    margin: 1.25rem auto;
-    padding: .75rem;
-    background-color: azure;
-}
-
 header {
     padding: .5rem 2%;
     background-color: azure;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
 }
+
+header img {
+    width: auto;
+    height: auto;
+}
+
 header h1 {
-    margin: 3%;
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    margin-left: 15px;
+    font-size: 2rem;
+    margin: auto;
 }
 header .subheading {
     font-weight: normal;
+    text-align: center;
+}
+
+main {
+    display: block;
+    padding: 6px;
+   margin: 6px auto;
 }
 
 nav {
-    background-color: azure;
+    background-color: rgb(26, 250, 26);
     font-family: Verdana, sans-serif;
+    text-align: center;
+    margin: auto;
 }
 nav button {
     margin: .2rem 2%;
@@ -40,12 +53,12 @@ nav button {
 }
 nav ul {
     display: flex;
-    justify-content: space-around;
     flex: 1 1 100%;
     list-style-type: none;
     padding: 0;
     margin: 0;
     overflow: hidden;
+    align-items: center;
 }
 nav ul li {
     border-right:1px solid #bbb;
@@ -56,6 +69,7 @@ nav ul li a {
     text-decoration: none;
     color: red;
     border-top:1px solid rgba(0,0,0,0.3);
+    text-align: center;
 }
 nav ul li.active a {background-color: rgba(0,0,0,0.2); color: #fff;
     
@@ -66,16 +80,11 @@ nav ul li a:hover {background-color: rgba(0,0,0,0.4);
 
 nav ul.hide {display: none;}
 
-.clearfix:after{
-    content: "";
-    display: table;
-    clear: both;
+nav ul li.active a {
+    background-color: green;
+    color: #9c2c13
 }
 
-main {
-    padding: 0 2%;
-    min-height: 10rem;
-}
 main figure { margin: 0 0 .2rem 2%; width:96%; }
 main figure.myphoto {
     width: 50%;
