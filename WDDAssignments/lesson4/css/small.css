@@ -20,10 +20,11 @@ header img {
     height: auto;
 }
 
-header h1 {
+h1 {
     font-family: Verdana, sans-serif;
     margin: 0;
     margin-left: 15px;
+    font-weight: 300;
     font-size: 2rem;
     margin: auto;
 }
@@ -32,7 +33,13 @@ header .subheading {
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+    font-weight: 400;
+}
+
 main {
+    max-width: auto;
     display: block;
     padding: 6px;
    margin: 6px auto;
@@ -42,7 +49,7 @@ nav {
     background-color: rgb(26, 250, 26);
     font-family: Verdana, sans-serif;
     text-align: center;
-    margin: auto;
+    margin: 0 auto;
 }
 nav button {
     margin: .2rem 2%;
@@ -65,9 +72,9 @@ nav ul li {
 }
 nav ul li a {
     display: block;
-    padding: .8rem 2%;
+    padding: .8rem;
     text-decoration: none;
-    color: red;
+    color: rgb(43, 43, 247);
     border-top:1px solid rgba(0,0,0,0.3);
     text-align: center;
 }
@@ -81,17 +88,31 @@ nav ul li a:hover {background-color: rgba(0,0,0,0.4);
 nav ul.hide {display: none;}
 
 nav ul li.active a {
-    background-color: green;
+    background-color: rgb(26, 250, 26);
     color: #9c2c13
+}
+
+.contentLinks {
+    background-color: rgb(26, 250, 26);
+    padding:.6rem;
+    margin: 2rem;
+}
+
+.contentbox {
+    border: 1px dashed green;
+    padding: .6rem;
+    margin: 6px;
+    background-color: rgb(9, 207, 9)
+    
 }
 
 main figure { margin: 0 0 .2rem 2%; width:96%; }
 main figure.myphoto {
     width: 50%;
-    border: 1px red dashed;
+    border: 1px blue dashed;
 }
 main figure.myphoto img {width: 100%;}
-main figure.myphoto img { text-align: center; font-size: .75rem;}
+main figure.myphoto img {text-align: center; font-size: .75rem;}
 
 /* 10-day forecast details should be set to "display:none;" in the small CSS view. */
 .forecast {
@@ -144,7 +165,7 @@ form input.submitBtn {
 }
 form label.top input:required {
     
-border-left:red solid 6px;
+border-left:blue solid 6px;
 }
 form label.top input:required:valid {
     border-left: green solid 6px
@@ -152,11 +173,13 @@ form label.top input:required:valid {
 
 
 
-.footer {
-    position: fixed;
+footer {
+   display: block;
+   padding: 6px;
     bottom: 0;
     width: 100%;
-    background-color: red;
+    margin: 6px auto;
+    background-color: blue;
     color: white;
     text-align: center;
 }
