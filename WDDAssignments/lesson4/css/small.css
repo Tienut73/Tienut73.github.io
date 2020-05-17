@@ -45,12 +45,6 @@ main {
    margin: 6px auto;
 }
 
-nav {
-    background-color: rgb(26, 250, 26);
-    font-family: Verdana, sans-serif;
-    text-align: center;
-    margin: 0 auto;
-}
 nav button {
     margin: .2rem 2%;
     background-color: transparent;
@@ -58,6 +52,14 @@ nav button {
     font-size: 1.6rem;
     color: #555;
 }
+
+nav {
+    background-color: rgb(26, 250, 26);
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+
 nav ul {
     display: flex;
     flex: 1 1 100%;
@@ -81,16 +83,22 @@ nav ul li a {
 nav ul li.active a {background-color: rgba(0,0,0,0.2); color: #fff;
     
 }
+
+
 nav ul li a:hover {background-color: rgba(0,0,0,0.4);
     
 }
 
 nav ul.hide {display: none;}
 
-nav ul li.active a {
-    background-color: rgb(26, 250, 26);
-    color: #9c2c13
-}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
 
 .contentLinks {
     background-color: rgb(26, 250, 26);
