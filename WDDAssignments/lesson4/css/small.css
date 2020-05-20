@@ -1,6 +1,6 @@
 /* This main css file contains the default rules and is geared toward the small/phone view */
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
-* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
 
 body {
   font-size: 16px;
@@ -69,9 +69,11 @@ nav ul {
     overflow: hidden;
     align-items: center;
 }
+
 nav ul li {
     border-right:1px solid #bbb;
 }
+
 nav ul li a {
     display: block;
     padding: .8rem;
@@ -83,7 +85,6 @@ nav ul li a {
 nav ul li.active a {background-color: rgba(0,0,0,0.2); color: #fff;
     
 }
-
 
 nav ul li a:hover {background-color: rgba(0,0,0,0.4);
     
@@ -177,7 +178,7 @@ border-left:blue solid 6px;
 }
 form label.top input:required:valid {
     border-left: green solid 6px
-}
+} 
 
 
 
