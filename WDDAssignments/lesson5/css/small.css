@@ -66,18 +66,15 @@ main {
 
 
 nav button {
-    margin: .2rem 2%;
+    margin: -15px auto;
     background-color: transparent;
-    border: none;
-    font-size: 1.6rem;
-    color: #555;
 }
 
 nav {
     background-color: rgb(26, 250, 26);
     font-family: Verdana, sans-serif;
     text-align: center;
-    margin: 0 auto;
+    margin: -15px auto;
 }
 
 nav ul {
@@ -91,7 +88,7 @@ nav ul {
 }
 
 nav ul li {
-    border-right:1px solid #bbb;
+    border-right:1px solid rgb(40, 165, 40);
 }
 
 nav ul li a {
@@ -101,13 +98,17 @@ nav ul li a {
     color: rgb(43, 43, 247);
     border-top:1px solid rgba(0,0,0,0.3);
     text-align: center;
+    font-size: 1.2rem;
 }
-nav ul li.active a {background-color: rgba(0,0,0,0.2); color: #fff;
+nav ul li.active a {
+    background-color: rgba(0,0,0,0.2); 
+    color: #fff;
     
 }
 
-nav ul li a:hover {background-color: rgba(0,0,0,0.4);
-    
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.4);
+    font-weight: 700;
 }
 
 nav ul.hide {display: none;}
