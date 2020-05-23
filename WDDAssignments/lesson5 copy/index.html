@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+<link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+<meta charset="utf-8">
+<title>Weather Center</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<meta name="author" content="Logan Pierce">
+<meta name="description" content="Weather Wizard gives forecasts for Franklin, Greenville and Springfield.">
+<link rel="stylesheet" type="text/css" href="../Assignment3/css/normalize.css">
+<link rel="stylesheet" type="text/css" href="../Assignment3/css/small.css">
+<link rel="stylesheet" type="text/css" href="../Assignment3/css/medium.css">
+<link rel="stylesheet" type="text/css" href="../Assignment3/css/large.css">
+<style>
+    .flex-container {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .flex-container > div {
+        background-color: #f1f1f1;
+        width: auto;
+        margin: auto;
+        text-align: center;
+        line-height: auto;
+    }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: rgb(26, 250, 26)
+}
+
+li {
+    float: left;
+    color: white;
+}
+    
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+    
+li a:hover {
+    background-color: #111;
+}
+    
+    table, th, td { 
+    border: 1px solid black;
+    }
+    
+.footer {
+   overflow: hidden;
+}
+    .footer-copyright {
+        float: left;
+    }
+    .footer-menu {
+        background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    }
+</style>
+</head>
+<body onload = "windChill()">
+
+  <header class="clearfix"><a href="index.html">
+      <figure class="logo">
+  <img src="images/stormCloud.png" alt="Weather Logo">
+      </figure></a>
+  <h1>Weather Wizard | Franklin Forecasts and Family Fun!</h1>
+  <h2>We're here, rain or shine!</h2>
+  </header>
+
+  <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primeNav" class="hide">
+        <li><a href="index.html">Home</a></li>
+    	<li><a href="target-audience.html">Target Audience</a></li>
+    	<li><a href="color-scheme.html">Color Scheme</a></li>
+    	<li><a href="typography.html">Typography</a></li>
+            </ul>		
+  </nav>
+    
+  <main>
+      <div class="wrapper">
+          
+    <div class="item1"></div>
+    <h1>Purpose</h1>
+        <p>Provide weather infomation for the surrounding area and help families and outdoor enthusiats plan their activities.</p>
+        <p>Domain Name: Weatherwizard.com</p>
+        <p>Logo:</p>
+        <figure class="logo">
+            <img src="images/stormCloud.png" alt="Weather Logo">
+                </figure></a>
+            </div>
+          
+  <div class="item2">
+      <figure class="city">
+  	<img src="images/franklinSML.jpeg"
+         srcset="images/franklinLRG.jpeg 2000w, images/franklinMED.jpeg 1500w, images/franklinSML.jpeg 1000w," alt="Franklin">
+          </figure></div>
+  
+      <div class="item3"><a href="target-audience.html">
+          <h2><span id="franklin-name"></span> Franklin</h2>
+          <h3><span id="franklin-motto">"Where you will grow!"</span></h3>
+          <p>
+              Year Founded: <span id="franklin-year">1788</span><br>
+              Population: <span id="franklin-population">30458</span><br>
+              Annual Rainfall: <span id="franklin-Rainfall">21</span>
+          </p>
+          </a></div>
+      
+    <div class="item4"><a href="target-audience.html">
+        <img src="images/franklinSML.jpeg"
+             srcset="images/franklinLRG.jpeg 2000w, images/franklinMED.jpeg 1500w, images/franklinSML.jpeg 1000w," alt="Franklin"></a>
+      </div>
+      
+      <div class="item5"><a href="color-scheme.html">
+          <h2><span id="greenville-name"></span> Greenville</h2>
+          <h3><span id="greenville-motto">"Green is our way of life."</span></h3>
+          <p>
+              Year Founded: <span id="greenville-year">1805</span><br>
+              Population: <span id="greenville-population">33458</span><br>
+              Annual Rainfall: <span id="greenville-Rainfall">25</span>
+          </p>
+          </a></div>
+      
+    <div class="item6"><a href="color-scheme.html">
+        <img src="images/greenvilleSML.jpeg"
+             srcset="images/greenvilleLRG.jpeg 2000w, images/greenvilleMED.jpeg 1500w, images/greenvilleSML.jpeg 1000w," alt="Greenville"></a>
+      </div>
+      
+      <div class="item7"><a href="typography.html">
+          <h2><span id="springfield-name"></span> Springfield</h2>
+          <h3><span id="springfield-motto">"Where everyone is lifted."</span></h3>
+          <p>
+              Year Founded: <span id="springfield-year">1826</span><br>
+              Population: <span id="springfield-population">17852</span><br>
+              Annual Rainfall: <span id="springfield-Rainfall">17</span>
+          </p>
+          </a></div>
+      
+    <div class="item8"><a href="typography.html">
+        <img src="images/springfieldSML.jpeg"
+             srcset="images/springfieldLRG.jpeg 2000w, images/springfieldMED.jpeg 1500w, images/springfieldSML.jpeg 1000w," alt="springfield"></a>
+      </div>
+     
+<section class="forecast">
+<h2>Forecast Details</h2>
+ <div class="flex-container">
+<table>
+<tbody>
+<tr>
+<th>Summary</th>
+<th>Sunny</th>
+</tr>
+<tr>
+<th>High</th>
+<th>90&deg;</th>
+</tr>
+<tr>
+<th>Low</th>
+<th>66&deg;</th>
+</tr>
+<tr>
+<th>Chance of Precipitation</th>
+<th>0&deg;</th>
+</tr>
+<tr>
+<th>Max Wind</th>
+<th>5mph SW</th>
+</tr>
+<th>Wind Chill</th>
+<th></th>
+</tbody></table>
+<h3>Ten Day Forecast</h3>
+<table>
+<thead>
+<tr>
+<th>Day 1</th>
+<th>Day 2</th>
+<th>Day 3</th>
+<th>Day 4</th>
+<th>Day 5</th>
+<th>Day 6</th>
+<th>Day 7</th>
+<th>Day 8</th>
+<th>Day 9</th>
+<th>Day 10</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>89&deg;F</td>
+<td>87&deg;F</td>
+<td>78&deg;F</td>
+<td>75&deg;F</td>
+<td>72&deg;F</td>
+<td>72&deg;F</td>
+<td>79&deg;F</td>
+<td>83&deg;F</td>
+<td>85&deg;F</td>
+<td>89&deg;F</td>
+</tr>
+</tbody>
+</table>
+    </div>
+</section>
+  </main>
+    
+  <div class="footer-box">
+      <section class="box-1">
+      <h3>Address</h3>
+      <p>The Weather Center</p>
+      <p>123 Main Street</p>
+        <p>Franklin, MI 87654</p>
+      </section>
+      
+      <section class="box-2">
+      <h3>Phone</h3>
+      <p>(801) 555-1234</p>
+      </section>
+      
+      <section class="box-2">
+      <h3>Email</h3>
+      <p>contact@yoururl.com</p>
+      </section>
+      <p></p>
+      <section>
+      <h3>Date</h3>
+        <p>
+          <script>
+var today = new Date();
+var dd = today.getDate();
+var mm = today.getMonth() + 1; //January is 0!
+var yyyy = today.getFullYear();
+
+if (dd < 10) {
+    dd = '0' + dd;
+}
+
+if (mm < 10) {
+    mm = '0' + mm;
+}
+
+today = mm + '/' + dd + '/' + yyyy;
+document.write(today);
+</script>
+        </p>
+          </section>
+      <section>
+      <p>Data courtesy <a href="https://openweathermap.org/">openweathermap.org</a></p>
+      </section>
+      
+  </div>
+
+</body>
+     <script src="js/currentdate.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/townData.js"></script>
+    
+    <script>
+        var urlString, urlArray, pageHREF, menu, i, currentURL;
+        var urlString = document.location.href;
+        var urlArray = urlString.split('/');
+        var pageHREF = urlArray[urlArray.length - 1];
+
+        if (pageHREF !== "") {
+            var menu = document.querySelectorAll('ul#mainmenu li a');
+            var i;
+            for (i = 0; i < menu.length; i++) {
+                var currentURL = (menu[i].getAttribute('href'));
+                menu[i].parentNode.className = '';
+                if (currentURL === pageHREF) {
+                    menu[i].parentNode.className = 'active';
+                }
+            }
+        }
+ </script>
+</html>

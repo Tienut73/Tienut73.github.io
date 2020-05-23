@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>Weather Wizard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <meta name="description" content="Weather Wizard gives weekly forecasts.">
+        <link rel="stylesheet" type="text/css" href=">lesson5/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="../lesson5/css/small.css">
+        <link rel="stylesheet" type="text/css" href="../lesson5/css/medium.css">
+        <link rel="stylesheet" type="text/css" href="../lesson5/css/large.css">
+    </head>
+    <body class="vsc initalized">
+        <header class="clearfix"><a href="../lesson5/preston-5.html">
+            <figure class="logo">
+            <img src="../lesson4/images/stormCloud.png" alt="logo">
+            </figure></a>
+            <section class="heading">
+        <h1>Weather Wizard</h1>
+        <div class="slogan">We're here, rain or shine!</div>
+        </section>
+      </header>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primeNav" class="hide">
+                <li>
+                  <a href="lesson5/index.html">Home</a>
+                </li>
+                <li>
+                  <a href="lesson5/preston-5.html" class="active">Preston</a>
+                </li>
+                <li>
+                    <a href="lesson5/preston-5.html">Soda Springs</a>
+                  </li>
+                  <li>
+                    <a href="lesson5/preston-5.html">Fish Haven</a>
+                  </li>
+                  <li>
+                    <a href="lesson5/preston-5.html">Storm Center</a>
+                  </li>
+                  <li>
+                    <a href="lesson5/preston-5.html">Gallery</a>
+                  </li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Preston Idaho</h2>
+            <div class="imgcontainer">
+            <img id="townimg" src="../lesson5 copy/images/franklinMED.jpeg" alt="stormy town">
+                        <section class="weatherSum">
+            <div id="boxtitle">Weather Summary</div>
+            <div class="contentbox">Currently: <span id="weather">Sunny</span></p>
+            <div class="contentbox">High: <span id="tempFah">65&deg;</span></p>
+            <div class="contentbox">Wind Chill: <span id="windC">62&deg;</span></p>
+            <div class="contentbox">Humidity: <span id="humid">15%</span></p>
+            <div class="contentbox">Wind Speed: <span id="windS">12 mph</span></p>
+            </section>
+            </div>
+            <section class="5dayForecast">
+              <h2>5 Day Forecast</h2>
+              <div class="forecast">
+                <div class="flex-col">
+                  <span class="Day">MON</span>
+                  <img src="#" alt="sun">
+                  <span class="temp">75&deg;</span>
+                </div>
+                <div class="flex-col">
+                  <span class="Day">TUE</span>
+                  <img src="#" alt="sun">
+                  <span class="temp">72&deg;</span>
+                </div>
+                <div class="flex-col">
+                  <span class="Day">WED</span>
+                  <img src="#" alt="sun">
+                  <span class="temp">78&deg;</span>
+                </div>
+                <div class="flex-col">
+                  <span class="Day">THU</span>
+                  <img src="#" alt="sun">
+                  <span class="temp">74&deg;</span>
+                </div>
+                <div class="flex-col">
+                  <span class="Day">FRI</span>
+                  <img src="#" alt="sun">
+                  <span class="temp">71&deg;</span>
+                </div>
+              </div>
+            </section>
+            <div class="article">
+              <h2>Weather Wonders</h2>
+              <p>
+                <img src="#" alt="Weather Wonder">
+                "Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Hic, perspiciatis. Placeat veniam quo, dolore optio autem doloribus distinctio et dicta totam fugit
+        perferendis sit numquam vel qui alias quas debitis repellendus accusantium provident ex. Autem deserunt animi
+        nesciunt obcaecati odio doloribus! Deserunt impedit nulla et laborum rem, ea earum fugit nisi sed quod atque
+        explicabo sunt suscipit molestiae accusamus commodi cupiditate. Quod perferendis assumenda accusamus dolores
+        nihil suscipit, nobis adipisci quas delectus in ipsa, corporis sequi, expedita inventore ullam commodi
+        accusantium nulla ratione magnam hic doloremque cupiditate. Repudiandae inventore dolores recusandae nemo quod
+        facere accusamus, quidem alias, ullam ipsam distinctio!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Est, labore voluptatum suscipit laborum corrupti architecto esse, quod impedit, odio cupiditate quaerat
+        molestias dicta. Voluptatem fuga architecto distinctio ab inventore quam! Est, labore voluptatum suscipit
+        laborum corrupti architecto esse, quod impedit, odio cupiditate quaerat
+        molestias dicta. Voluptatem fuga architecto distinctio ab inventore quam!"
+              </p>
+            </div>
+            <div class="map">
+              <section class="contact">
+                <p>
+                  "My Weather Report Today"
+                  <br>
+                  "Address"
+                  <br>
+                  "Address"
+                </p>
+                <p>
+                  "Phone Number"
+                  <br>
+                  "email"
+                </p>
+                <a class="socialmedia" target="_blank" href="https://www.facebook.com">
+                <img class="icon" src="#" alt="FB logo">
+                </a>
+                <a class="socialmedia" target="_blank" href="https://www.twitter.com">
+                  <img class="icon" src="#" alt="Twitter logo">
+                  </a>
+                  <a class="socialmedia" target="_blank" href="https://www.youtube.com">
+                    <img class="icon" src="#" alt="YouTube logo">
+                    </a>
+              </section>
+           <p>
+             <img src="#" alt="Preston map">
+           </p>
+            </div> 
+        </main>
+        <footer>
+            <p>
+             " &copy; 2020 | Weather Wizard | Logan Pierce | Texas"
+             <span id="currentdate">Saturday, 23 May 2020
+             </span>
+                </p>
+            </footer> 
+         <script src="js/currentdate.js"></script>
+        <script src="js/hamburger.js"></script>
+        </body>
+</html>
