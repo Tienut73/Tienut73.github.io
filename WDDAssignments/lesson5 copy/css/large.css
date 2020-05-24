@@ -1,5 +1,13 @@
 @media only screen and (min-width: 64rem) {
-    
+    .headings h1 {
+        font-size: 3rem;
+    }
+
+    .slogan {
+        font-size: 2rem;
+        margin-left: 120px;
+    }
+
     Nav button { display:none; } 
     
     nav ul.hide {display: block;}
@@ -12,5 +20,31 @@
     nav ul li a {border: none;
     border-right:1px solid rgba(0,0,0,0.3);
     padding: 1rem;
+    }
+
+    .forecast {
+        max-width: 550px;
+    }
+
+    p img {
+        float: right;
+        width: 250px;
+        height: 250px;
+        margin: -35px 10px 10px;
+    }
+
+    .map {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .map img {
+        width: 400px;
+        height: 350px;
+    }
+
+    a .icon {
+        width: 40px;
+        height: 40px;
     }
 }

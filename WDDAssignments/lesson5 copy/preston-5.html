@@ -5,58 +5,59 @@
         <title>Weather Wizard</title>
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
         <meta name="description" content="Weather Wizard gives weekly forecasts.">
-        <link rel="stylesheet" type="text/css" href=">lesson5/css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="../lesson5/css/small.css">
-        <link rel="stylesheet" type="text/css" href="../lesson5/css/medium.css">
-        <link rel="stylesheet" type="text/css" href="../lesson5/css/large.css">
+        <link rel="stylesheet" type="text/css" href=">lesson5 copy/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="../lesson5 copy/css/small.css">
+        <link rel="stylesheet" type="text/css" href="../lesson5 copy/css/medium.css">
+        <link rel="stylesheet" type="text/css" href="../lesson5 copy//css/large.css">
     </head>
     <body class="vsc initalized">
-        <header class="clearfix"><a href="../lesson5/preston-5.html">
+        <header class="clearfix"><a href="../lesson5 copy/preston-5.html">
             <figure class="logo">
-            <img src="../lesson4/images/stormCloud.png" alt="logo">
+            <img src="../lesson5 copy/images/stormCloud.png" alt="logo">
             </figure></a>
             <section class="heading">
         <h1>Weather Wizard</h1>
         <div class="slogan">We're here, rain or shine!</div>
         </section>
       </header>
-        <nav class="clearfix">
-            <button onclick="toggleMenu()">&#9776;</button>
-            <ul id="primeNav" class="hide">
+        <nav class="navigation">
+          <li>
+            <a href="#" onclick="toggleMenu()">&#9776;</a>
+             </li>
                 <li>
                   <a href="lesson5/index.html">Home</a>
                 </li>
                 <li>
-                  <a href="lesson5/preston-5.html" class="active">Preston</a>
+                  <a href="lesson5 copy/preston-5.html" class="active">Preston</a>
                 </li>
                 <li>
-                    <a href="lesson5/preston-5.html">Soda Springs</a>
+                    <a href="lesson5 copy/preston-5.html">Soda Springs</a>
                   </li>
                   <li>
-                    <a href="lesson5/preston-5.html">Fish Haven</a>
+                    <a href="lesson5 copy/preston-5.html">Fish Haven</a>
                   </li>
                   <li>
-                    <a href="lesson5/preston-5.html">Storm Center</a>
+                    <a href="lesson5 copy/preston-5.html">Storm Center</a>
                   </li>
                   <li>
-                    <a href="lesson5/preston-5.html">Gallery</a>
+                    <a href="lesson5 copy/preston-5.html">Gallery</a>
                   </li>
             </ul>
         </nav>
         <main>
             <h2>Preston Idaho</h2>
-            <div class="imgcontainer">
+            <section class="imgcontainer">
             <img id="townimg" src="../lesson5 copy/images/franklinMED.jpeg" alt="stormy town">
-                        <section class="weatherSum">
+            <div class="weatherSum">
             <div id="boxtitle">Weather Summary</div>
             <div class="contentbox">Currently: <span id="weather">Sunny</span></p>
             <div class="contentbox">High: <span id="tempFah">65&deg;</span></p>
             <div class="contentbox">Wind Chill: <span id="windC">62&deg;</span></p>
             <div class="contentbox">Humidity: <span id="humid">15%</span></p>
             <div class="contentbox">Wind Speed: <span id="windS">12 mph</span></p>
-            </section>
             </div>
-            <section class="5dayForecast">
+          </section>
+            <section class="fiveDayForecast">
               <h2>5 Day Forecast</h2>
               <div class="forecast">
                 <div class="flex-col">
