@@ -1,0 +1,32 @@
+@media only screen and (min-width: 35em) {
+
+    /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
+    
+    header img {
+        width: 100%;
+    }
+
+    .headings h1 {
+        font-size: 2rem;
+    }
+
+    .slogan {
+        letter-spacing: 1.5pt;
+        font-size: 1.5rem;
+        margin-left: 50px;
+    }
+
+    .navigation {
+        display: flex;
+
+    }
+
+    nav button { display:none; }  /* hamburger button does not need to be shown in the medium on up views */
+    
+    nav ul.hide {display: block;}
+    nav ul {margin-left: 2%;}
+    nav ul li {
+        float: left;
+    }
+    nav ul li a {border: none;}
+}
