@@ -1,0 +1,18 @@
+.centered {
+    display: grid;
+    justify-content: center;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+img {
+    border: 1px solid #333;
+    padding: 2px;
+
+}
+ img[data-src] {
+    filter: blur(0.2em);
+ }
