@@ -58,6 +58,10 @@ nav button {
 .navigation {
     list-style: none;
     padding: 0;
+
+}
+
+.hide {display: none;
 }
 
 .navigation li:first-child {
@@ -94,7 +98,7 @@ h2 {
 }
 
 .imgcontainer {
-    position: relaxive;
+    position: relative;
     width: 80%;
     margin: 10px auto;
 }
@@ -118,9 +122,9 @@ h2 {
 
 .weatherSum {
     color: rgb(0, 0, 0);
-    position: relative;
-    top: 5rem;
-    left: 3rem;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
     font-family: "verdana", sans-serif;
     font-size: 1.2rem;
     background: radial-gradient(#eee, #4567aa);
@@ -173,8 +177,7 @@ h3 {
 
 .contentbox {
     padding: .5rem;
-    margin: 6px;
-    background: radial-gradient(#eee, #4567aa);    
+    margin: 1px;   
 }
 
 .article {
