@@ -9,9 +9,10 @@ h1 {
 }
 
 img {
+    transition: filter 0.2s;
     border: 1px solid #333;
     padding: 2px;
-
+    margin: 10px 0;
 }
  img[data-src] {
     filter: blur(0.2em);
