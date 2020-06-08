@@ -12,6 +12,9 @@
         <link rel="stylesheet" type="text/css" href="../lesson6/css/large.css">
     </head>
     <body class="vsc initalized">
+      <div id="plannedEvent">Preston Pancakes in the Park!<br>
+        City Park, 9:00 A.M. Saturday
+      </div>
         <header class="clearfix"><a href="lesson6/preston-5.html">
             <figure class="logo">
             <img src="../lesson6/images/stormCloud.png" alt="logo">
@@ -21,10 +24,10 @@
         <div class="slogan">We're here, rain or shine!</div>
         </section>
       </header>
-        <nav class="navigation" id="primeNav">
-          <ul>
+        <nav>
+          <ul class="navigation">
           <li>
-            <a href="#" onclick="toggleMenu()">&#9776;</a>
+            <a class="primeNav" href="#" onclick="toggleMenu()">&#9776;</a>
              </li>
                 <li>
                   <a href="../lesson6/index.html">Home</a>
@@ -49,7 +52,11 @@
         <main>
             <h2>Preston Idaho</h2>
             <section class="imgcontainer">
-            <img id="townimg" src="../lesson6/images/franklinMED.jpeg" alt="stormy town">
+              <picture>
+                <source srcset="#" media="(max-width: 550px)">
+                <source srcset="#" media="(max-width: 550px)">
+                <img src="#" alt="franklin Image">
+              </picture>
             <div class="weatherSum">
             <div id="boxtitle">Weather Summary</div>
             <div class="contentbox">Currently: <span id="weather">Sunny</span></p>
