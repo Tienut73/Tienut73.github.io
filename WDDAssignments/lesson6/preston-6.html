@@ -53,17 +53,17 @@
             <h2>Preston Idaho</h2>
             <section class="imgcontainer">
               <picture>
-                <source srcset="#" media="(max-width: 550px)">
-                <source srcset="#" media="(max-width: 550px)">
-                <img src="#" alt="franklin Image">
+                <source srcset="../lesson6/images/franklinSML.jpg" media="(max-width: 550px)">
+                <source srcset="../lesson6/images/franklinMED.jpg" media="(max-width: 950px)">
+                <img src="../lesson6/images/franklinLRG.jpeg" alt="franklin Image">
               </picture>
             <div class="weatherSum">
             <div id="boxtitle">Weather Summary</div>
             <div class="contentbox">Currently: <span id="weather">Sunny</span></p>
-            <div class="contentbox">High: <span id="tempFah">65&deg;</span></p>
-            <div class="contentbox">Wind Chill: <span id="windC">62&deg;</span></p>
+            <div class="contentbox">High: <span id="tempf">65&deg;F</span></p>
+            <div class="contentbox">Wind Chill: <span id="windchill">&deg;F</span></p>
             <div class="contentbox">Humidity: <span id="humid">15%</span></p>
-            <div class="contentbox">Wind Speed: <span id="windS">12 mph</span></p>
+            <div class="contentbox">Wind Speed: <span id="speed">12 mph</span></p>
             </div>
           </section>
             <section class="fiveDayForecast">
@@ -149,11 +149,31 @@
         <footer>
             <p>
              " &copy; 2020 | Weather Wizard | Logan Pierce | Texas"
-             <span id="currentdate">Saturday, 23 May 2020
-             </span>
+             <section>
+                <p>
+                  <script>
+        var today = new Date();
+        var dd = today.getDate();
+        var mm = today.getMonth() + 1; //January is 0!
+        var yyyy = today.getFullYear();
+        
+        if (dd < 10) {
+            dd = '0' + dd;
+        }
+        
+        if (mm < 10) {
+            mm = '0' + mm;
+        }
+        
+        today = mm + '/' + dd + '/' + yyyy;
+        document.write(today);
+        </script>
+                </p>
+                  </section>
                 </p>
             </footer> 
-         <script src="js/currentdate.js"></script>
-        <script src="js/hamburger.js"></script>
+         <script src="../lesson6/js/currentdate.js"></script>
+        <script src="../lesson6/js/hamburger.js"></script>
+        <script src="../lesson6/js/windchill.js"></script>
         </body>
 </html>
