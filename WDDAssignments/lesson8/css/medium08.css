@@ -9,10 +9,10 @@
     nav ul li {
         float: left;
     }
-    nav ul li a {border: none;}
+    nav ul li a {border: none;
     border-right: 1px solid rgba(0,0,0,0.3);
-    padding .8rem 1rem;
+    padding: .8rem 1rem;
+    }
     
-    section.forecast { ______ }  /* show the 10-day forecast with the medium view and up */
-
-  }
+    /*section.forecast { ______ }  /* show the 10-day forecast with the medium view and up */
+}

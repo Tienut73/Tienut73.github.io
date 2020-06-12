@@ -1,11 +1,9 @@
-/* Delete these CSS comments after reading. */
-/* This main css file contains the default rules and is geared toward the small/phone view */
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
-* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+* { box-sizing: border-box;} 
 
 body {
   font-size: 16px;
-  font-family: Verdana, sans-serif;  /* Declare the base font-family */
+  font-family: Verdana, sans-serif;  
 }
 
 header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
@@ -24,7 +22,7 @@ header {
 header h1 {
     margin: 3%;
 }
-header img {}
+
 header .subheading {
     font-weight: normal;
 }
@@ -76,7 +74,7 @@ main {
     padding: 0 2%;
     min-height: 10rem;
 }
-main h2 {}
+
 main figure { margin: 0 0 .2rem 2%; width:96%; }
 main figure.myphoto {
     width: 50%;
@@ -124,7 +122,7 @@ form label.top input, form label.top select {
     background-color: rgba(0,0,0,0.1);
 }
 form label.sbs {
-    display: blockactivepadding: .75rem 0;
+    display: blockactivepadding .75rem 0;
     color: #555;
 }
 form input.submitBtn {
@@ -149,10 +147,10 @@ form label.top input:required:valid {
 
 .footer {
     position: fixed;
-    left 0;
+    left: 0;
     bottom: 0;
     width: 100%;
     background-color: red;
     color: white;
-    text-aligh: center;
+    text-align: center;
 }
