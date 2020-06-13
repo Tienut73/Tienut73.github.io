@@ -111,8 +111,21 @@ li a:hover {
                 </datalist>
                 
                 <label class="top" for="rating">Storm Severity (1 to 10)</label>
-    <input type="range" name="rangeInputName" id="rangeInputId" value="5" min="1" max="10" oninput="rangeOutputId.value = rangeInputId.value">
+    <input type="range" name="rangeInputName" id="rangeInputId" value="5" min="1" max="10" list="tickmarks" oninput="rangeOutputId.value = rangeInputId.value">
     <output name="rangeOutputName" id="rangeOutputId">5</output><br>
+    <datalist id="tickmarks">
+        <option value="0">
+        <option value="1">
+        <option value="2">
+        <option value="3">
+        <option value="4">
+        <option value="5">
+        <option value="6">
+        <option value="7">
+        <option value="8">
+        <option value="9">
+        <option value="10">
+    </datalist>
        
     <label class="top">Storm Region</label>
   <select name="cars">
