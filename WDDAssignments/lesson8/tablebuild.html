@@ -3,14 +3,29 @@
 <html lang="en">
 <head>
 <style>
+    * {
+        font-family: Ubuntu, sans-serif;
+    }
+    .header {
+        font-size:x-large;
+    }
     thead {color: black}
     tbody  {color: white}
     tfoot {color: black}
     table {
-                 box-shadow: 5px 10px #888888;
+                 margin-right: auto;
+                 margin-left: auto;
+                 margin-top: 5rem;
+                 box-shadow: 8px 8px 8px #888888;
+                 width: 23%;
     }
-    table, th, td {          
-        border: 1px solid gray;
+    table, th, td {   
+        padding: 10px;
+        text-align: center;       
+  }
+
+  .footer {
+      font-size: smaller;
   }
 </style>
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />
@@ -26,7 +41,7 @@
     <table>
     <thead>
         <tr bgcolor="#7fb9c2"  align="center">
-            <th colspan="3"><strong>Acme Wildwest</strong></th>
+            <th colspan="3" class="header"><strong>ACME Wildwest</strong></th>
         </tr>
         </thead>
         <tfoot>
@@ -60,7 +75,7 @@
                 <td>$7,500</td>
             </tr>
             <tr bgcolor="#7fb9c2" align="center">
-                <td colspan="3">Compiled 6.10.2020 by lPierce</td>
+                <td colspan="3" class="footer">Compiled 6.12.2020 by lPierce</td>
             </tr>
         </tfoot>
         <tbody>
