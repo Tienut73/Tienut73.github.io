@@ -1,23 +1,31 @@
-const requestURL =
+const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
 fetch(requestURL)
 .then(function (response) {
     return response.json();
 })
-,then(function (jsonObject) {
+.then(function (jsonObject) {
     console.table(jsonObject);
     const prophets = jsonObject['prophets'];
-    const utah = prophets.filter(prophet => (prophet.birthplace == 'Utah'));
 
-    utah.forEach(prophet => {
+    for (let i = 0; i < pprophets.length; i++)  {
         let card =document.createElement('section');
         let h2 = document.createElement('h2');
-        let p1 = document.createElement('p');
+        let bDay = document.createElement('p');
+        let bPlace = document.createElement('p');
+        let image = document.createElement('img');
+        let alt = document.createElement('alt');
 
-        h2.textContext = prophets[i].name + ' ' + prophets[i].lastname;
-        p1.innerHTML = "<strong>" + prophets[i].birthdate + "</strong>";
-        
-        card.appendChild(h2);
+        alt.setAttribute('alt', prophets[i].name + prophets[i].lastname + ' - ' + prophets[i].order);
+            image.setAttribute('src', prophets[i].imageurl);
+            h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
+            bDay.textContent = 'Date of Birth: ' + prophets[i].birthdate;
+            bPlace.textContent = 'Place of Birth: ' + prophets[i].birthplace;
 
-        document.querySelector('div.cards').appendChild(card);
-    })
-})
+            card.appendChild(h2);
+            card.appendChild(alt);
+            card.appendChild(bDay);
+            card.appendChild(bPlace);
+            card.appendChild(image);
+            document.querySelector('div.cards').appendChild(card);
+    }
+});
