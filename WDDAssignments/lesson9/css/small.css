@@ -198,7 +198,6 @@ h3 {
 
 p img {
     display: block;
-    width: 10px auto;
     width: 350px;
     height:350px;
     border:1px solid rgb(17, 17, 155);
@@ -236,7 +235,7 @@ footer {
     color:  rgb(9, 207, 9);
     margin: 15px auto;
     padding: 5px;
-    max-width: 860px, 90%;
+    max-width: 90%;
     font-family: "Verdana", sans-serif;
     text-align: center;
 }
