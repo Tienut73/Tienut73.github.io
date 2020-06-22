@@ -23,8 +23,8 @@ try {
     var dayOfWeek = date.getDay();
   
     if (dayOfWeek == 5) {
-      var pancake = document.getElementById("pancake");
-      pancake.style.display = "block";
+      var plannedEvent = document.getElementById("plannedEvent");
+      plannedEvent.style.display = "block";
     }
   
     function adjustRating(rating) {
@@ -69,7 +69,6 @@ fetch(requestURL)
         containtext.appendChild(population);
         containtext.appendChild(rainfall);
 
-            // creating second div
           let picture = document.createElement('div');
           picture.classList.add('homepic')
           let image = document.createElement('img');
