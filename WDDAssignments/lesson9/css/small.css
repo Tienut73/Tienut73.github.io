@@ -112,7 +112,6 @@ nav ul li.active a {
     border: solid 2px rgb(17, 17, 155);
 }
 
-}
 .gallery figure img[data-src] {
     filter: blur(0.2em);
  }
