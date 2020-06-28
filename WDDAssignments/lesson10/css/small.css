@@ -63,6 +63,24 @@ nav {
     text-align: center;
 }
 
+.navigation{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.navigation li:first-child{
+    display: block;
+}
+
+.navigation li{
+    display: block;
+}
+
+.responsive li{
+    display: block;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;

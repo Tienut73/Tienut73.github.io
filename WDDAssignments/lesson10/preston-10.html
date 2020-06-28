@@ -26,8 +26,7 @@
       </header>
         <nav>
           <ul class="navigation">
-          <li>
-            <a class="primeNav" href="#" onclick="toggleMenu()">&#9776;</a>
+          <li><a href="#" onclick="toggleMenu()">&#9776;</a>
              </li>
                 <li>
                   <a href="../lesson10/index.html">Home</a>
@@ -42,10 +41,10 @@
                     <a href="../lesson10/preston-10.html">Fish Haven</a>
                   </li>
                   <li>
-                    <a href="../lesson10/preston-10.html">Storm Center</a>
+                    <a href="../lesson10/stormcenter.html">Storm Center</a>
                   </li>
                   <li>
-                    <a href="../lesson10/preston-10.html">Gallery</a>
+                    <a href="../lesson10/gallery-9.html">Gallery</a>
                   </li>
             </ul>
         </nav>
@@ -70,29 +69,29 @@
               <h2>5 Day Forecast</h2>
               <div class="forecast">
                 <div class="flex-col">
-                  <span class="Day">MON</span>
-                  <img src="../lesson10/images/sunny-SML.png" alt="sun">
-                  <span class="temp">75&deg;</span>
+                  <span id="day1" class="Day">MON</span>
+                  <img src="" id="icon1" alt="sun">
+                  <span id="high1" class="temp"></span>
                 </div>
                 <div class="flex-col">
-                  <span class="Day">TUE</span>
-                  <img src="../lesson10/images/sunny-SML.png" alt="sun">
-                  <span class="temp">72&deg;</span>
+                  <span id="day2" class="Day">TUE</span>
+                  <img src="" id="icon2" alt="sun">
+                  <span id="high2" class="temp"></span>
                 </div>
                 <div class="flex-col">
-                  <span class="Day">WED</span>
-                  <img src="../lesson10/images/sunny-SML.png" alt="sun">
-                  <span class="temp">78&deg;</span>
+                  <span id="day3" class="Day">WED</span>
+                  <img src="" id="icon3" alt="sun">
+                  <span id="high3" class="temp"></span>
                 </div>
                 <div class="flex-col">
-                  <span class="Day">THU</span>
-                  <img src="../lesson10/images/sunny-SML.png" alt="sun">
-                  <span class="temp">74&deg;</span>
+                  <span id="day4" class="Day">THU</span>
+                  <img src="" id="icon4" alt="sun">
+                  <span id="high4" class="temp"></span>
                 </div>
                 <div class="flex-col">
-                  <span class="Day">FRI</span>
-                  <img src="../lesson10/images/sunny-SML.png" alt="sun">
-                  <span class="temp">71&deg;</span>
+                  <span id="day5" class="Day">FRI</span>
+                  <img src="" id="icon5" alt="sun">
+                  <span id="high5" class="temp"></span>
                 </div>
               </div>
             </section>
@@ -148,7 +147,7 @@
         </main>
         <footer>
             <p>
-             " &copy; 2020 | Weather Wizard | Logan Pierce | Texas"
+             " &copy; 2020 | Weather Wizard | Logan Pierce | Oklahoma"
              <section>
                 <p>
                   <script>
@@ -176,5 +175,6 @@
         <script src="../lesson10/js/hamburger.js"></script>
         <script src="../lesson10/js/windchill.js"></script>
         <script src="../lesson10/js/weatherapi.js"></script>
+        <script src="../lesson10/js/forecast.js"></script>
       </body>
 </html>
