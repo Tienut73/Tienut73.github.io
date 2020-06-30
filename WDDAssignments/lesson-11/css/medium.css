@@ -1,0 +1,86 @@
+@media only screen and (min-width: 35em) {
+
+    /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
+    
+    header img {
+        width: auto;
+    }
+
+    .headings h1 {
+        font-size: 2rem;
+    }
+
+    .slogan {
+        letter-spacing: 1.5pt;
+        font-size: 1.5rem;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    nav button { display:none; }  /* hamburger button does not need to be shown in the medium on up views */    
+    nav ul .hide {display: block;}
+    nav ul { display: flex;
+        margin-left: 2%;}
+    nav ul li {
+        float: left;
+    }
+    nav ul li a {
+        padding: .5rem 1rem;
+        font-size: 1rem;
+    }
+
+    news {
+        flex-direction: row;
+    }
+    artile:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+
+    .textcol {
+        width: 50%;
+        padding: 25px 0;
+    }
+
+    .homepic {
+        width: 50%;
+    }
+
+    .news p {
+        width: 50%;
+    }
+
+    .news {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .news img {
+        width: 50%;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr)
+    }
+    .forecast { 
+        display: block;
+    }
+
+    .artic figure img {
+        display: block;
+        padding: 1rem;
+        float: right;
+        width: 50%;
+    }
+    .contact {
+        grid-template-columns: 1fr 1fr;;
+    }
+    .gmap {
+        display:block;
+    }
+
+.contactinfo {
+    margin: auto;
+    }
+}

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+<link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+<meta charset="utf-8">
+<title>Weather Center</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<meta name="author" content="Logan Pierce">
+<meta name="description" content="Weather Wizard gives forecasts for Franklin, Greenville and Springfield.">
+<link rel="stylesheet" type="text/css" href="../lesson9/css/normalize.css">
+<link rel="stylesheet" type="text/css" href="../lesson9/css/small.css">
+<link rel="stylesheet" type="text/css" href="../lesson9/css/medium.css">
+<link rel="stylesheet" type="text/css" href="../lesson9/css/large.css">
+<style>
+    .flex-container {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .flex-container > div {
+        background-color: #f1f1f1;
+        width: auto;
+        margin: auto;
+        text-align: center;
+        line-height: auto;
+    }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    color: white;
+}
+    
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+    
+li a:hover {
+    background-color: #111;
+}
+    
+    table, th, td { 
+    border: 1px solid black;
+    }
+    
+.footer {
+   overflow: hidden;
+}
+    .footer-copyright {
+        float: left;
+    }
+    .footer-menu {
+        background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    }
+</style>
+</head>
+<body onload = "windChill()">
+
+  <header class="clearfix"><a href="index.html">
+      <figure class="logo">
+  <img src="images/stormCloud.png" alt="Weather Logo">
+      </figure></a>
+  <h1>Weather Wizard | Franklin Forecasts and Family Fun!</h1>
+  <h2>We're here, rain or shine!</h2>
+  </header>
+
+  <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primeNav" class="hide">
+        <li><a href="index.html">Home</a></li>
+    	<li><a href="target-audience.html">Target Audience</a></li>
+    	<li><a href="color-scheme.html">Color Scheme</a></li>
+    	<li><a href="typography.html">Typography</a></li>
+            </ul>		
+  </nav>
+    
+  <main>
+      <div class="wrapper">
+          
+    <div class="item1"></div>
+    <h1>Target Audience</h1>
+        <h2>Joggers</h2>
+    <p>Whether you're training for a marathon, or just trying to lose 
+        the few extra pounds you put on during Quarantine, our site has 
+        what you need! 
+    </p>
+    <p> - Our forecasts give you up to the minute weather conditions 
+        to help you better plan your runs.</p>
+    <p> - We also provide information on hiking trails and nature areas. 
+        We'll warn you of potential muddy trails, high winds, and other adverse conditions.</p>  
+        <h2>Families</h2>
+    <p>Before planning your trip to the beach, consult our handy site with 
+        regularly updated reports on beach conditions.
+    </p>
+    <p> - Our site has lots to offer families. Including coloring pages for the kids to print out!</p>
+    <p> - We have reviews of all the parks in the area. You can search for key features, 
+        like a sun covering or access to a pool.</p>
+    <p> - We work with the local school district to provide up to the minute information regarding school closings
+        due to weather.
+    </p>
+</div>
+          
+<section class="forecast">
+<h2>Forecast Details</h2>
+ <div class="flex-container">
+<table>
+<tbody>
+<tr>
+<th>Summary</th>
+<th>Sunny</th>
+</tr>
+<tr>
+<th>High</th>
+<th>90&deg;</th>
+</tr>
+<tr>
+<th>Low</th>
+<th>66&deg;</th>
+</tr>
+<tr>
+<th>Chance of Precipitation</th>
+<th>0&deg;</th>
+</tr>
+<tr>
+<th>Max Wind</th>
+<th>5mph SW</th>
+</tr>
+<th>Wind Chill</th>
+<th></th>
+</tbody></table>
+<h3>Ten Day Forecast</h3>
+<table>
+<thead>
+<tr>
+<th>Day 1</th>
+<th>Day 2</th>
+<th>Day 3</th>
+<th>Day 4</th>
+<th>Day 5</th>
+<th>Day 6</th>
+<th>Day 7</th>
+<th>Day 8</th>
+<th>Day 9</th>
+<th>Day 10</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>89&deg;F</td>
+<td>87&deg;F</td>
+<td>78&deg;F</td>
+<td>75&deg;F</td>
+<td>72&deg;F</td>
+<td>72&deg;F</td>
+<td>79&deg;F</td>
+<td>83&deg;F</td>
+<td>85&deg;F</td>
+<td>89&deg;F</td>
+</tr>
+</tbody>
+</table>
+    </div>
+</section>
+  </main>
+    
+  <div class="footer-box">
+      <section class="box-1">
+      <h3>Address</h3>
+      <p>The Weather Center</p>
+      <p>123 Main Street</p>
+        <p>Franklin, MI 87654</p>
+      </section>
+      
+      <section class="box-2">
+      <h3>Phone</h3>
+      <p>(801) 555-1234</p>
+      </section>
+      
+      <section class="box-2">
+      <h3>Email</h3>
+      <p>contact@yoururl.com</p>
+      </section>
+      <p></p>
+      <section>
+      <h3>Date</h3>
+        <p>
+          <script>
+var today = new Date();
+var dd = today.getDate();
+var mm = today.getMonth() + 1; //January is 0!
+var yyyy = today.getFullYear();
+
+if (dd < 10) {
+    dd = '0' + dd;
+}
+
+if (mm < 10) {
+    mm = '0' + mm;
+}
+
+today = mm + '/' + dd + '/' + yyyy;
+document.write(today);
+</script>
+        </p>
+          </section>
+      <section>
+      <p>Data courtesy <a href="https://openweathermap.org/">openweathermap.org</a></p>
+      </section>
+      
+  </div>
+
+</body>
+     <script src="js/currentdate.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/townData.js"></script>
+    
+    <script>
+        var urlString, urlArray, pageHREF, menu, i, currentURL;
+        var urlString = document.location.href;
+        var urlArray = urlString.split('/');
+        var pageHREF = urlArray[urlArray.length - 1];
+
+        if (pageHREF !== "") {
+            var menu = document.querySelectorAll('ul#mainmenu li a');
+            var i;
+            for (i = 0; i < menu.length; i++) {
+                var currentURL = (menu[i].getAttribute('href'));
+                menu[i].parentNode.className = '';
+                if (currentURL === pageHREF) {
+                    menu[i].parentNode.className = 'active';
+                }
+            }
+        }
+ </script>﻿
+</html>
