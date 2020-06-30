@@ -8,7 +8,7 @@
         margin-left: 120px;
     }    }
 
-    Nav button { display:none; } 
+    #hamButton { display:none; } 
     
     nav ul.hide {display: block;}
    

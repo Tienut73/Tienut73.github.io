@@ -19,7 +19,7 @@
         display: flex;
     }
 
-    nav button { display:none; }  /* hamburger button does not need to be shown in the medium on up views */    
+    #hamButton { display:none; }  /* hamburger button does not need to be shown in the medium on up views */    
     nav ul .hide {display: block;}
     nav ul { display: flex;
         margin-left: 2%;}

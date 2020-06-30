@@ -105,9 +105,6 @@ nav ul li a{
     font-weight: 900;
   }
 
-nav ul.hide {
-    display: none;
-}
 
 nav ul li.active a {
     background-color: rgb(26, 223, 26);
@@ -318,4 +315,8 @@ footer {
     content: "";
     display: table;
     clear: both;
+}
+
+nav ul.hide {
+    display: none;
 }
