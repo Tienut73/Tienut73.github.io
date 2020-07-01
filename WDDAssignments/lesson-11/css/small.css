@@ -136,6 +136,59 @@ nav ul li.active a {
      
  }
 
+ .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    width: auto;
+    margin: auto;
+    text-align: center;
+    line-height: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: rgb(26, 223, 26);
+}
+
+li {
+    float: left;
+    color: white;
+}
+    
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+    
+li a:hover {
+    background-color: #111;
+}
+    
+    table, th, td { 
+    border: 1px solid black;
+    }
+    
+    .container {
+  width: 500px;
+  clear: both;
+}
+
+.container input {
+  width: 100%;
+  clear: both;
+}
+
+
  main {
     padding: 1rem 2%;
     max-width:820px;
