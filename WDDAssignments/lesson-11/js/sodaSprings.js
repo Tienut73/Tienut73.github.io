@@ -7,7 +7,7 @@ fetch(requestEventsURL)
   .then(function (jsonObject) {
     const towns = jsonObject['towns'];
 
-    const special = towns.filter(town => (town.name == 'Preston')); //this line is in addition to const prophets line
+    const special = towns.filter(town => (town.name == 'Soda Springs')); //this line is in addition to const prophets line
     special.forEach(town => {
       let townDiv = document.createElement('div');
       let h6 = document.createElement('h6');
