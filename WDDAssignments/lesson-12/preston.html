@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>Weather Wizard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <meta name="description" content="Weather Wizard gives weekly forecasts.">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="../lesson-11/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="../lesson-11/css/small.css">
+        <link rel="stylesheet" type="text/css" href="../lesson-11/css/medium.css">
+        <link rel="stylesheet" type="text/css" href="../lesson-11/css/large.css">
+    </head>
+
+    <body class="vsc initalized">
+      <div id="plannedEvent">Preston Pancakes in the Park!<br>
+        City Park, 9:00 A.M. Saturday
+      </div>
+
+        <header class="clearfix"><a href="index.html">
+            <figure class="logo">
+            <img src="../lesson-11/images/stormCloud.png" alt="logo">
+            </figure></a>
+            <section class="heading">
+        <h1>Weather Wizard</h1>
+        <div class="slogan">We're here, rain or shine!</div>
+        </section>
+      </header>
+        <nav>
+          <ul id="primeNav" class="navigation">
+          <li><button id="hamButton" href="#" onclick="toggleMenu()">&#9776;</button>
+             </li>
+                <li>
+                  <a href="../lesson-11/index.html">Home</a>
+                </li>
+                <li>
+                  <a href="../lesson-11/preston.html" class="active">Preston</a>
+                </li>
+                <li>
+                    <a href="../lesson-11/sodaSprings.html">Soda Springs</a>
+                  </li>
+                  <li>
+                    <a href="../lesson-11/fishHaven.html">Fish Haven</a>
+                  </li>
+                  <li>
+                    <a href="../lesson-11/stormcenter.html">Storm Center</a>
+                  </li>
+                  <li>
+                    <a href="../lesson-11/gallery.html">Gallery</a>
+                  </li>
+            </ul>
+        </nav>
+        
+        <main>
+            <h2>Preston Idaho</h2>
+            <section class="imgcontainer">
+              <picture>
+                <source srcset="../lesson-11/images/preston.jpg" media="(max-width: 550px)">
+                <source srcset="../lesson-11/images/preston.jpg" media="(max-width: 950px)">
+                <img src="../lesson-11/images/preston.jpg" alt="Preston Image">
+              </picture>
+
+            <div class="weatherSum">
+            <div id="boxtitle">Weather Summary</div>
+            <div class="contentbox">Currently: <span id="weather">Sunny</span></p>
+            <div class="contentbox">High: <span id="current-temp">&deg;F</span></p>
+            <div class="contentbox">Wind Chill: <span id="windchill">&deg;F</span></p>
+            <div class="contentbox">Humidity: <span id="humid">15%</span></p>
+            <div class="contentbox">Wind Speed: <span id="speed">12 mph</span></p>
+            </div>
+          </section>
+            <section class="fiveDayForecast">
+              <h2>5 Day Forecast</h2>
+              <div class="forecast">
+                <div class="flex-col">
+                  <span id="day1" class="Day">MON</span>
+                  <img src="" id="icon1" alt="sun">
+                  <span id="high1" class="temp"></span>
+                </div>
+                <div class="flex-col">
+                  <span id="day2" class="Day">TUE</span>
+                  <img src="" id="icon2" alt="sun">
+                  <span id="high2" class="temp"></span>
+                </div>
+                <div class="flex-col">
+                  <span id="day3" class="Day">WED</span>
+                  <img src="" id="icon3" alt="sun">
+                  <span id="high3" class="temp"></span>
+                </div>
+                <div class="flex-col">
+                  <span id="day4" class="Day">THU</span>
+                  <img src="" id="icon4" alt="sun">
+                  <span id="high4" class="temp"></span>
+                </div>
+                <div class="flex-col">
+                  <span id="day5" class="Day">FRI</span>
+                  <img src="" id="icon5" alt="sun">
+                  <span id="high5" class="temp"></span>
+                </div>
+              </div>
+            </section>
+
+            <div class="towns">
+            </div>
+
+            <div class="article">
+              <h2>Weather Wonders</h2>
+              <br>
+              <br>
+              <p>
+                <img src="../lesson10/images/forked-bolt-SML.jpeg" alt="Weather Wonder">
+                "Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Hic, perspiciatis. Placeat veniam quo, dolore optio autem doloribus distinctio et dicta totam fugit
+        perferendis sit numquam vel qui alias quas debitis repellendus accusantium provident ex. Autem deserunt animi
+        nesciunt obcaecati odio doloribus! Deserunt impedit nulla et laborum rem, ea earum fugit nisi sed quod atque
+        explicabo sunt suscipit molestiae accusamus commodi cupiditate. Quod perferendis assumenda accusamus dolores
+        nihil suscipit, nobis adipisci quas delectus in ipsa, corporis sequi, expedita inventore ullam commodi
+        accusantium nulla ratione magnam hic doloremque cupiditate. Repudiandae inventore dolores recusandae nemo quod
+        facere accusamus, quidem alias, ullam ipsam distinctio!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Est, labore voluptatum suscipit laborum corrupti architecto esse, quod impedit, odio cupiditate quaerat
+        molestias dicta. Voluptatem fuga architecto distinctio ab inventore quam! Est, labore voluptatum suscipit
+        laborum corrupti architecto esse, quod impedit, odio cupiditate quaerat
+        molestias dicta. Voluptatem fuga architecto distinctio ab inventore quam!"
+              </p>
+            </div>
+
+            <div class="map">
+              <img src="../lesson10/images/Preston-SML.jpg" alt="Preston map">
+
+              <section class="contact">
+                <h5>Contact Information</h5>
+                <p>
+                  "Weather Wizard"
+                  <br>
+                  <span> 30 N 1st E</span>
+                  <br>
+                  "Preston, ID 83263"
+                </p>
+                <p>
+                  "(208)-555-5555"
+                  <br>
+                  "contact@weatherwizard.com"
+                </p>
+                <a class="socialmedia" target="_blank" href="https://www.facebook.com">
+                <img class="icon" src="../lesson10/images/FBCrayon.png" alt="FB logo">
+                </a>
+                <a class="socialmedia" target="_blank" href="https://www.twitter.com">
+                  <img class="icon" src="../lesson10/images/TwitterCrayon.png" alt="Twitter logo">
+                  </a>
+                  <a class="socialmedia" target="_blank" href="https://www.youtube.com">
+                    <img class="icon" src="../lesson10/images/YTCrayon.png" alt="YouTube logo">
+                    </a>
+              </section>
+           <p>
+             <br>
+           </p>
+            </div> 
+        </main>
+        <footer>
+            <p>
+             " &copy; 2020 | Weather Wizard | Logan Pierce | Oklahoma"
+             <section>
+                <p>
+                  <script>
+        var today = new Date();
+        var dd = today.getDate();
+        var mm = today.getMonth() + 1; 
+        var yyyy = today.getFullYear();
+        
+        if (dd < 10) {
+            dd = '0' + dd;
+        }
+        
+        if (mm < 10) {
+            mm = '0' + mm;
+        }
+        
+        today = mm + '/' + dd + '/' + yyyy;
+        document.write(today);
+        </script>
+                </p>
+                  </section>
+                </p>
+            </footer> 
+         <script src="../lesson-11/js/currentdate.js"></script>
+        <script src="../lesson-11/js/hamburger.js"></script>
+        <script src="../lesson-11/js/windchill.js"></script>
+        <script src="../lesson-11/js/weatherapi.js"></script>
+        <script src="../lesson-11/js/forecast.js"></script>
+        <script src="../lesson-11/js/preston.js"></script>
+      </body>
+</html>

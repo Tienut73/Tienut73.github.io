@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<meta name="description" content="Weather Wizard is here rain or shine!">
+<link rel="stylesheet" type="text/css" href="../lesson-11/css/normalize.css">
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<link rel="stylesheet" type="text/css" href="../lesson-11/css/gallerySmall.css">
+<link rel="stylesheet" type="text/css" href="../lesson-11/css/galleryMedium.css">
+<link rel="stylesheet" type="text/css" href="../lesson-11/css/galleryLarge.css">
+
+</head>
+
+<body class="vsc initalized">
+    <div id="plannedEvent">Preston Pancakes in the Park!<br>
+        City Park, 9:00 A.M. Saturday
+      </div> 
+
+      <header>
+        <picture class="logo">
+          <img src="../lesson-11/images/stormCloud.png" alt="logo">
+        </picture>
+        <section class="headings">
+          <h1>Weather Wizard</h1>
+          <div class="motto">We're here, rain or shine!</div>
+        </section>
+      </header>
+    
+      <nav>
+          <ul id="primeNav" class="navigation">
+          <li><button id="hamButton" href="#" onclick="toggleMenu()">&#9776;</button>
+             </li>
+                <li>
+                  <a href="../lesson-11/index.html">Home</a>
+                </li>
+                <li>
+                  <a href="../lesson-11/preston.html">Preston</a>
+                </li>
+                <li>
+                    <a href="../lesson-11/sodaSprings.html">Soda Springs</a>
+                  </li>
+                  <li>
+                    <a href="../lesson-11/fishHaven.html">Fish Haven</a>
+                  </li>
+                  <li>
+                    <a href="../lesson-11/stormcenter.html">Storm Center</a>
+                  </li>
+                  <li>
+                    <a href="../lesson-11/gallery.html" class="active">Gallery</a>
+                  </li>
+            </ul>
+        </nav>
+    
+      <main>
+        <h2>Weather Gallery</h2>
+    
+        <div class="container">
+    
+          <figure class="gallery">
+                <img src="../lesson-11/images/Intermission.jpg" data-src="../lesson-11/images/arid-mesa-SML.jpeg" 
+                alt="Arid Mesa">
+            <figcaption>Arid Mesa</figcaption>
+          </figure>
+    
+          <figure class="gallery">
+            <img src="../lesson-11/images/Intermission.jpg" data-src="../lesson-11/images/coldsnap-SML.jpeg" 
+            alt="Coldsnap">
+        <figcaption>Coldsnap</figcaption>
+          </figure>
+    
+          <figure class="gallery">
+            <img src="../lesson-11/images/Intermission.jpg" data-src="../lesson-11/images/foggy-SML.jpeg" 
+            alt="Foggy">
+        <figcaption>Foggy</figcaption>
+          </figure>
+    
+          <figure class="gallery">
+            <img src="../lesson-11/images/Intermission.jpg" data-src="../lesson-11/images/forked-bolt-SML.jpeg" 
+            alt="Forked Bolt">
+        <figcaption>Forked Bolt</figcaption>
+          </figure>
+    
+          <figure class=gallery>
+            <img src="../lesson7/lazyload/images/Intermission.jpg" data-src="../lesson-11/images/inferno-SML.jpeg" 
+            alt="Inferno">
+        <figcaption>Inferno</figcaption>
+          </figure>
+    
+          <figure class="gallery">
+            <img src="../lesson7/lazyload/images/Intermission.jpg" data-src="../lesson-11/images/twister-SML.jpeg" 
+            alt="Twister">
+        <figcaption>Twister</figcaption>
+          </figure>
+    
+          <figure class="gallery">
+            <img src="../lesson7/lazyload/images/Intermission.jpg" data-src="../lesson-11/images/franklinSML.jpeg" 
+            alt="stormy">
+        <figcaption>Stormy</figcaption>
+          </figure>
+    
+          <figure class="gallery">
+            <img src="../lesson7/lazyload/images/Intermission.jpg" data-src="../lesson-11/images/greenvilleSML.jpeg" 
+            alt="Tranqil">
+        <figcaption>Tranquil</figcaption>
+          </figure>
+    
+          <figure class="gallery">
+            <img src="../lesson7/lazyload/images/Intermission.jpg" data-src="../lesson-11/images/springfieldSML.jpeg" 
+            alt="Overcast">
+        <figcaption>Overcast</figcaption>
+          </figure>
+    
+        </div>
+      </main>
+    
+      <footer>
+        <p>&copy; <span id="year"></span> | Logan Pierce | Oklahoma | <a href=" https://www.byui.edu/online">BYUI Online
+            Learning</a></p>
+        <p id="date"><span id="currentdate"></span></p>
+      </footer>
+    
+     
+      <script src="../lesson-11/js/imageloader.js"></script>
+      
+    
+    </body>
+    
+    </html>

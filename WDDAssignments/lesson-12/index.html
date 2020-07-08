@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+<link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+<meta charset="utf-8">
+<title>Weather Center</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"> 
+<meta name="author" content="Logan Pierce">
+<meta name="description" content="Weather Wizard gives forecasts for Fish Haven, Preston, and Soda Springs.">
+<link rel="stylesheet" type="text/css" href="../lesson-11/css/normalize.css">
+<link rel="stylesheet" type="text/css" href="../lesson-11/css/small.css">
+<link rel="stylesheet" type="text/css" href="../lesson-11/css/medium.css">
+<link rel="stylesheet" type="text/css" href="../lesson-11/css/large.css">
+</head>
+
+      <body>
+        <div id="plannedEvent">Preston Pancakes in the Park!<br> 
+          City Park, 9:00 A.M. Saturday
+        </div>
+
+          <header class="clearfix">
+              <img src="../lesson-11/images/stormCloud.png" alt="logo">
+              <section class="headings">
+          <h1>Weather Wizard</h1>
+          <div class="slogan">We're here, rain or shine!</div>
+          </section>
+        </header>
+
+        <nav>
+          <ul id="primeNav" class="navigation">
+          <li><button id="hamButton" href="#" onclick="toggleMenu()">&#9776;</button>
+             </li>
+                <li>
+                  <a href="../lesson-11/index.html"  class="active">Home</a>
+                </li>
+                <li>
+                  <a href="../lesson-11/preston.html">Preston</a>
+                </li>
+                <li>
+                    <a href="../lesson-11/sodaSprings.html">Soda Springs</a>
+                  </li>
+                  <li>
+                    <a href="../lesson-11/fishHaven.html">Fish Haven</a>
+                  </li>
+                  <li>
+                    <a href="../lesson-11/stormcenter.html">Storm Center</a>
+                  </li>
+                  <li>
+                    <a href="../lesson-11/gallery.html">Gallery</a>
+                  </li>
+            </ul>
+        </nav>
+    
+  <main>
+      <div class="news"> 
+        <h2>Weather Article</h2>  
+        <img src="../lesson-11/images/articlePhoto.jpg" alt="Article Image">       
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Susc
+        ipit temporibus sunt iste magnam, nobis, obcaecati quisquam, 
+        voluptate fugiat impedit expedita saepe dignissimos provident? 
+        Praesentium ipsam suscipit aspernatur aliquam dolor numquam.
+    </p>
+</div>
+<div class="townname">
+
+</div>
+</main>
+<footer>
+    <p>Wire Frames: <a href="https://wireframe.cc/pro/pp/5d36e4dc5352366">Small</a> | <a href="https://wireframe.cc/pro/pp/d0ccd718c352364">Medium</a> | <a href="https://wireframe.cc/pro/pp/cd03f3235352362">Large</a></p>
+    <p> &#169; Weather Wizard | <span id="currentdate"></span></p>
+</footer>
+<script src="../lesson-11/js/currentUpdate.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+          WebFont.load({google: {families: ["Verdana", "Roboto"]} });
+        </script>
+</body>
+</html>
