@@ -22,7 +22,6 @@ header {
 header h1 {
     margin: 3%;
 }
-header img {}
 header .subheading {
     font-weight: normal;
 }
@@ -71,22 +70,29 @@ nav ul.hide {display: none;}
 }
 
 main {
-    padding: 0 2%;
+    padding: 0.5 2%;
     min-height: 10rem;
 }
-main h2 {}
-main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure { margin: 0 0 0.2rem 2%; width:96%; }
 main figure.myphoto {
     width: 50%;
     border: 1px red dashed;
 }
-main figure.myphoto img {width 100%;}
-main figure.myphoto img { text-align: center; font-size: .75rem;}
+main figure.myphoto img {max-width: 100}
+main figure.myphoto img { text-align: center; font-size: 0.75rem;}
 
 .forecast {
 
      display: none;
 
+}
+
+.weatherSum {
+    background-color: #F09900;
+    border: 2px solid  #FFF000;
+    opacity: .85;
+    box-shadow: 0 0 30px rgb(5, 5, 5);
+    
 }
 
 
@@ -121,7 +127,7 @@ form label.top input, form label.top select {
     background-color: rgba(0,0,0,0.1);
 }
 form label.sbs {
-    display: blockactivepadding: .75rem 0;
+    display: blockactivepadding .75rem 0;
     color: #FFF000;
 }
 form input.submitBtn {
@@ -142,12 +148,26 @@ form label.top input:required:valid {
     border-left: green solid 6px
 }
 
+.fiveDayForecast {
+    margin: 24px;
+}
+
+.forecast {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 70%;
+    border-right: 1px solid #000;
+    background-color: #236600;
+    margin: 0px auto;
+}
+
 .footer {
     position: fixed;
-    left 0;
+    left: 0;
     bottom: 0;
     width: 100%;
     background-color: red;
     color: white;
-    text-aligh: center;
+    text-align: center;
 }
