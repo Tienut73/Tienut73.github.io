@@ -26,6 +26,17 @@ header .subheading {
     font-weight: normal;
 }
 
+#call2Action {    
+    color: #FFF000;
+    background-color: #F09900;
+    font-size: 1.50rem;
+    padding: 8px;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    font-style: italic;
+}
+
+
 nav {
     background-color: white;
     font-family: 'Georgia', sans-serif;

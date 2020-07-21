@@ -5,9 +5,9 @@ fetch(requestURL)
 })
 .then(function (jsonObject) {
     console.table(jsonObject);
-    const prophets = jsonObject['prophets'];
+    const scooter = jsonObject['scooter'];
 
-    for (let i = 0; i < prophets.length; i++)  {
+    for (let i = 0; i < scooter.length; i++)  {
         let card =document.createElement('section');
         let h2 = document.createElement('h2');
         let bDay = document.createElement('p');
@@ -15,11 +15,11 @@ fetch(requestURL)
         let image = document.createElement('img');
         let alt = document.createElement('alt');
 
-        alt.setAttribute('alt', prophets[i].name + prophets[i].lastname + ' - ' + prophets[i].order);
-            image.setAttribute('src', prophets[i].imageurl);
-            h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-            bDay.textContent = 'Date of Birth: ' + prophets[i].birthdate;
-            bPlace.textContent = 'Place of Birth: ' + prophets[i].birthplace;
+        alt.setAttribute('alt', scooter[i].name + scooter[i].lastname + ' - ' + scooter[i].order);
+            image.setAttribute('src', scooter[i].imageurl);
+            h2.textContent = scooter[i].name + ' ' + scooter[i].lastname;
+            bDay.textContent = 'Date of Birth: ' + scooter[i].birthdate;
+            bPlace.textContent = 'Place of Birth: ' + scooter[i].birthplace;
 
             card.appendChild(h2);
             card.appendChild(alt);

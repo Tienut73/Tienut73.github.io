@@ -1,0 +1,58 @@
+{
+    "scoots": [
+      {
+        "rentaltype": "Honda Metro Scooter",
+        "maxpersons": 1,
+        "rhalfday": "$20",
+        "rfullday": "$30",
+        "whalfday": "25",
+        "wfullday": "$35",
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+      },
+      {
+        "rentaltype": "Honda Dio Scooter",
+        "maxpersons": 2,
+        "rhalfday": "$30",
+        "rfullday": "$40",
+        "whalfday": "$35",
+        "wfullday": "$45",
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/brigham-young-82908-gallery.jpg"
+      },
+      {
+        "rentaltype": "Honda PCX150 Scooter",
+        "maxpersons": 2,
+        "rhalfday": "$40",
+        "rfullday": "$50",
+        "whalfday": "$45",
+        "wfullday": "$55",
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/john-taylor-82909-gallery.jpg"
+      },
+      {
+        "rentaltype": "Honda Pioneer ATV",
+        "maxpersons": 4,
+        "rhalfday": "$50",
+        "rfullday": "$70",
+        "whalfday": "$60",
+        "wfullday": "$80",
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/wilford-woodruff-82910-gallery.jpg"
+      },
+      {
+        "rentaltype": "Jeep Wrangler -4 door with a/c",
+        "maxpersons": 5,
+        "rhalfday": "$70",
+        "rfullday": "$100",
+        "whalfday": "$85",
+        "wfullday": "$125",
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/lorenzo-snow-82911-gallery.jpg"
+      },
+      {
+        "rentaltype": "Jeep Wrangler -2 door",
+        "maxpersons": 4,
+        "rhalfday": "$60",
+        "rfullday": "$85",
+        "whalfday": "$70",
+        "wfullday": "$90",
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/joseph-f-smith-82912-gallery.jpg"
+      }
+    ]
+  }
