@@ -1,13 +1,13 @@
-const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
+const requestURL = 'https://github.com/Tienut73/Tienut73.github.io/blame/master/WDDAssignments/Final_Project/JS/scoots.json';
 fetch(requestURL)
 .then(function (response) {
     return response.json();
 })
 .then(function (jsonObject) {
     console.table(jsonObject);
-    const scooter = jsonObject['scooter'];
+    const scooters = jsonObject['scooters'];
 
-    for (let i = 0; i < scooter.length; i++)  {
+    for (let i = 0; i < scooters.length; i++)  {
         let card =document.createElement('section');
         let h2 = document.createElement('h2');
         let bDay = document.createElement('p');
@@ -15,11 +15,11 @@ fetch(requestURL)
         let image = document.createElement('img');
         let alt = document.createElement('alt');
 
-        alt.setAttribute('alt', scooter[i].name + scooter[i].lastname + ' - ' + scooter[i].order);
-            image.setAttribute('src', scooter[i].imageurl);
-            h2.textContent = scooter[i].name + ' ' + scooter[i].lastname;
-            bDay.textContent = 'Date of Birth: ' + scooter[i].birthdate;
-            bPlace.textContent = 'Place of Birth: ' + scooter[i].birthplace;
+        alt.setAttribute('alt', scooters[i].name + scooters[i].lastname + ' - ' + scooters[i].order);
+            image.setAttribute('src', scooters[i].imageurl);
+            h2.textContent = scooters[i].name + ' ' + scooters[i].lastname;
+            bDay.textContent = 'Date of Birth: ' + scooters[i].birthdate;
+            bPlace.textContent = 'Place of Birth: ' + scooters[i].birthplace;
 
             card.appendChild(h2);
             card.appendChild(alt);
