@@ -53,14 +53,14 @@ nav ul {
     padding: 0;
     margin: 0;
     
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 nav ul li {
     border-right:1px solid #bbb;
 }
 nav ul li a {
     display: block;
-    padding: .8rem 2%;
+    padding: 0.8rem 2%;
     text-decoration: none;
     color: red;
     border-top:1px solid rgba(0,0,0,0.3);
@@ -89,7 +89,7 @@ main figure.myphoto {
     width: 50%;
     border: 1px red dashed;
 }
-main figure.myphoto img {max-width: 100}
+main figure.myphoto img {max-width: 100%}
 main figure.myphoto img { text-align: center; font-size: 0.75rem;}
 
 .forecast {
@@ -124,7 +124,7 @@ form.label.top, form div {
     display: block;
     padding-top: 1rem;
     color:red;
-    font-size: .8rem;
+    font-size: 0.8rem;
 }
 form label.top input, form label.top select {
    -webkit-appearance:none;
@@ -138,7 +138,7 @@ form label.top input, form label.top select {
     background-color: rgba(0,0,0,0.1);
 }
 form label.sbs {
-    display: blockactivepadding .75rem 0;
+    display: blockactivepadding .75rem 0rem;
     color: #FFF000;
 }
 form input.submitBtn {

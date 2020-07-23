@@ -1,7 +1,7 @@
 function calcWind() {
     let tempf = parseFloat(document.getElementById("high").textContent);
     let speed = parseFloat(document.getElementById("wind").textContent);
-    let result = windchill(temp,wind);
+    let result = windchill(temp, wind);
 
     document.getElementById("windchill").innerHTML = "result";
 

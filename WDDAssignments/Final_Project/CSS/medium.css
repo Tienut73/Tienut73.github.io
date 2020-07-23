@@ -7,9 +7,10 @@
     nav ul li {
         float: left;
     }
-    nav ul li a {border: none;}
-    border-right:1px solid rgba(0,0,0,0.3);
-    padding .8rem 1rem;
+    nav ul li a {border: none;
+    border-right:10rem solid rgba(0,0,0,0.3);
+    padding:0.8 1rem;
     
-    section.forecast { ______ }
+    /* section.forecast { ______ } */
   }
+}
